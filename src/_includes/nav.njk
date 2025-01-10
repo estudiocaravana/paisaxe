@@ -1,0 +1,47 @@
+<div class="caixa py-9 sm:py-12 mt-6 rounded-t-xl">
+  <div class="flex items-center gap-12">
+    <div class="flex-1">
+      <a href="/">
+        <div class="flex items-center">
+          <div>
+            <img src="/assets/img/favicon.svg" alt="Logo Paisaxe da auga" class="h-10" />
+          </div>
+          <div class="text-base font-semibold ml-4">
+            <span class="text-sky-500">Ribeira Sacra</span><br /> Paisaxe da auga
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <ul class="flex gap-2 rounded-full bg-sky-100 p-2 text-sm sombra_interior">
+        <li><a href="#" class="rounded-full size-12 flex items-center justify-center bg-white sombra">es</a></li>
+        <li><a href="#" class="rounded-full size-12 flex items-center justify-center hover:bg-sky-50">en</a></li>
+        <li><a href="#" class="rounded-full size-12 flex items-center justify-center hover:bg-sky-50">gl</a></li>
+      </ul>
+    </div>
+    <div class="relative flex-1" x-data="{menu : false}">
+      <button class="ml-auto block" @click="menu = true">
+        <svg class="fill-none stroke-sky-600 stroke-2 size-14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M13 12h8"/>
+            <path d="M13 18h8"/>
+            <path d="M13 6h8"/>
+            <path d="M3 12h1"/>
+            <path d="M3 18h1"/>
+            <path d="M3 6h1"/>
+            <path d="M8 12h1"/>
+            <path d="M8 18h1"/>
+            <path d="M8 6h1"/>
+        </svg>
+      </button>
+      <!-- 
+      <div class="p-9 text-sm absolute top-12 right-0 bg-white rounded-lg sombra max-w-xl z-40" x-show="menu" @click.outside="menu = false" x-transition>
+        <ul class="text-nowrap space-y-1">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/">Atributos</a></li>
+          <li><a href="/">Textos legales</a></li>
+        </ul>
+      </div>
+      -->
+    </div>
+  </div>
+</div>

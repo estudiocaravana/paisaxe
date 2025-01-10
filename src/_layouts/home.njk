@@ -1,0 +1,30 @@
+{% extends "./base.njk" %}
+{% block content %}
+    <div class="caixa py-20">
+        <!-- Titular -->
+        <div class="max-w-2xl mx-auto text-center">
+            <div class="px-20">
+                <h1 class="text-5xl leading-tight mb-3 font-extrabold">
+                    <span class="text-sky-500">{{ tit }}</span><br/>
+                    {{ ulo }}
+                </h1>
+                <div class="max-w-lg">
+                    {{ descripcion | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Video -->
+    <div class="caixa">
+        <div class="overflow-hidden rounded-xl relative w-full bg-sky-900">
+        <img src="/assets/img/home/video.webp" alt="" class="w-full" />
+        <div class="flex items-center justify-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 size-12 rounded-full bg-white">
+            <div class="w-fit">
+            <svg class="fill-sky-500 stroke-none size-7" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"
+                ><polygon points="6 3 20 12 6 21 6 3"></polygon>
+            </svg>
+            </div>
+        </div>
+        </div>
+    </div>
+{% endblock %}

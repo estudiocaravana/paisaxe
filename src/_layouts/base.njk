@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="{{ '/assets/font/bundle.css' | url }}">
+        <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
+        <script src="assets/alpine.js" defer></script>
+        <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg"/>
+        <meta name="generator" content="11ty"/>
+        <title>{{ title }}</title>
+        <meta name="description" content="{{ descripcion }}"/>
+    </head>
+    <body class="text-sky-900 bg-sky-50 bg-fixed" style="background-image: url(/assets/img/fondo.webp)">
+        {% include 'nav.njk' %}
+        {% block content %}{% endblock %}
+        {% include 'footer.njk' %}
+    </body>
+</html>
