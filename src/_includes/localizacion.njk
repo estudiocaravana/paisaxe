@@ -1,0 +1,41 @@
+<div class="caixa">
+    <div class="max-w-lg pt-36 pb-36 mx-auto text-center">
+        <h2>Localización</h2>
+        {{loca | safe}}
+    </div>
+</div>
+<!-- mapas -->
+<div class="caixa bg-sky-100 py-20">
+    <div class="flex bg-sky-100 *:bg-white *:p-6 rounded-xl overflow-hidden border border-sky-200">
+        <div><img src="/assets/img/home/localizacion/world.webp" alt=""/></div>
+        <div><img src="/assets/img/home/localizacion/europe.webp" alt=""/></div>
+        <div><img src="/assets/img/home/localizacion/spain.webp" alt=""/></div>
+        <div><img src="/assets/img/home/localizacion/galician.webp" alt=""/></div>
+    </div>
+    <a href="#" class="bg-white text-sky-500 border-b border-sky-200 absolute top-0 z-30 left-1/2 -translate-x-1/2 -translate-y-1/2 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full mx-auto">
+        <div>
+            <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                <path d="m21 3-9 9"/>
+                <path d="M15 3h6v6"/>
+            </svg>
+        </div>
+        <div>Google maps</div>
+    </a>
+</div>
+<!-- Mapa -->
+<div class="caixa">
+    <div class="py-20 relative">
+        <img class="w-full rounded-xl border border-sky-100" src="/assets/img/home/planocan.webp" alt=""/>
+    </div>
+    <a href="#" class="mb-20 absolute bottom-0 z-30 left-1/2 -translate-x-1/2 translate-y-1/2 bg-sky-500 text-sky-50 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full mx-auto">
+        <div>
+            <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                <path d="m21 3-9 9"/>
+                <path d="M15 3h6v6"/>
+            </svg>
+        </div>
+        <div>PDF Mapa</div>
+    </a>
+</div>

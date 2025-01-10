@@ -1,0 +1,36 @@
+<!-- Delimitación  -->
+<div class="caixa">
+    <div
+        class="dupla gap-0 pt-36 pb-24">
+        <!-- red -->
+        <div class="text-center">
+            <div class="flex flex-col items-center gap-4">
+                <div>
+                    <div class="size-12 rounded-full border-2 border-red-500"></div>
+                </div>
+                <div>
+                    <span class="font-bold">{{ delimitacion }}</span><br/>
+                    <span class="font-bold text-red-500">{{ delimitacion_dato }}</span>
+                </div>
+            </div>
+            <div class="max-w-md pt-2 mx-auto">
+                {{ delimitacion_cuerpo | safe }}
+            </div>
+        </div>
+        <!-- green -->
+        <div class="text-center">
+            <div class="flex flex-col items-center gap-4">
+                <div>
+                    <div class="size-12 rounded-full border-2 border-green-500"></div>
+                </div>
+                <div>
+                    <span class="font-bold">{{ amor }}</span><br/>
+                    <span class="font-bold text-green-500">{{ amor_dato }}</span>
+                </div>
+            </div>
+            <div class="max-w-md pt-2 mx-auto">
+                {{ amor_cuerpo | safe }}
+            </div>
+        </div>
+    </div>
+</div>

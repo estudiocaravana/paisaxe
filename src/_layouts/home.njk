@@ -1,6 +1,7 @@
 {% extends "./base.njk" %}
 {% block content %}
-    <div class="caixa py-20">
+    <div
+        class="caixa py-20">
         <!-- Titular -->
         <div class="max-w-2xl mx-auto text-center">
             <div class="px-20">
@@ -14,17 +15,62 @@
             </div>
         </div>
     </div>
-      <!-- Video -->
+    <!-- Video -->
     <div class="caixa">
         <div class="overflow-hidden rounded-xl relative w-full bg-sky-900">
-        <img src="/assets/img/home/video.webp" alt="" class="w-full" />
-        <div class="flex items-center justify-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 size-12 rounded-full bg-white">
-            <div class="w-fit">
-            <svg class="fill-sky-500 stroke-none size-7" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"
-                ><polygon points="6 3 20 12 6 21 6 3"></polygon>
-            </svg>
+            <img src="/assets/img/home/video.webp" alt="" class="w-full"/>
+            <div class="flex items-center justify-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 size-12 rounded-full bg-white">
+                <div class="w-fit">
+                    <svg class="fill-sky-500 stroke-none size-7" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <polygon points="6 3 20 12 6 21 6 3"></polygon>
+                    </svg>
+                </div>
             </div>
         </div>
+    </div>
+    {% include 'localizacion.njk' %}
+    {% include 'delimitacion.njk' %}
+    <!-- Limite -->
+    <div class="caixa pt-36">
+        <div
+            class="flex items-center">
+            <!-- imagen -->
+            <div class="flex-1">
+                <img class="max-w-lg mx-auto" src="/assets/img/home/limite_grafico.png" alt=""/>
+            </div>
+            <!-- Texto -->
+            <div class="flex-1">
+                <h3 class="text-3xl">{{ limite }}</h3>
+                <div class="mt-5">
+                    {{ limite_cuerpo | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Criterio -->
+    <div class="caixa pt-60 pb-36 text-center">
+        <span class="text-sky-500 mb-3 block">Criterio</span>
+        <h2 class="text-3xl max-w-xl mx-auto">{{ criterio }}</h2>
+        <div class="max-w-2xl mx-auto mt-5">
+            {{ criterio_cuerpo | safe }}
+        </div>
+    </div>
+    <!-- Valor -->
+    <div class="caixa bg-sky-100" x-data="{ expanded: false }">
+        <div class="py-36 mx-auto max-w-3xl text-left">
+            <h2 class="text-3xl text-center">{{ valor }}</h2>
+            <div class="mt-5">{{ valor_entrada | safe }}</div>
+            <div x-show="expanded" x-collapse>
+                <div>{{ valor_cuerpo | safe }}</div>
+            </div>
+            <button @click="expanded = ! expanded" class="absolute bottom-0 z-30 left-1/2 -translate-x-1/2 translate-y-1/2 bg-sky-100 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full mx-auto">
+                <div>
+                    <svg class="fill-none stroke-current stroke-2 size-6" :class="expanded ? 'rotate-180' : ''" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 9 6 6 6-6"/>
+                    </svg>
+                </div>
+                <div>Seguir leyendo</div>
+            </button>
         </div>
     </div>
 {% endblock %}

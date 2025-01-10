@@ -5,6 +5,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "node_modules/alpinejs/dist/cdn.js": "/assets/alpine.js",
   });
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/@alpinejs/collapse/dist/cdn.js": "/assets/collapse.js",
+  });
   eleventyConfig.addPassthroughCopy("src/assets/font/bundle.css");
   // Page Sorting. Importante para que netlify no ordene alfabéticamente
   eleventyConfig.addCollection("page", function (collections) {
