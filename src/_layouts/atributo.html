@@ -5,7 +5,7 @@
         <!-- Titular -->
         <div class="max-w-2xl mx-auto text-center">
             <div class="px-20">
-                <h1 class="text-5xl leading-tight mb-3 font-extrabold">
+                <h1 class="text-5xl text-sky-500 leading-tight mb-3 font-extrabold">
                     {{ title }}
                 </h1>
                 <div class="max-w-lg">
@@ -15,8 +15,26 @@
         </div>
     </div>
     <div class="caixa py-20">
-        <div class="max-w-5xl">
+        <div class="flex flex-col gap-20">
+        {%- for item in galeria -%}
+        <div>
+            <img src="/assets/img/atributos/{{ item.img }}" alt="{{ item.alt }}" class="rounded-xl mx-auto">
+        </div>
+        {%- endfor -%}
+        </div>
+    </div>
+    <div class="caixa py-20">
+        <div class="max-w-3xl mx-auto">
             {{ content | safe }}
+        </div>
+    </div>
+    <div class="caixa py-36">
+        <div class="flex flex-col gap-20">
+        {%- for item in graficos -%}
+        <div class="border border-sky-500 rounded-xl overflow-hidden">
+            <img src="/assets/img/atributos/{{ item.img }}" alt="{{ item.alt }}">
+        </div>
+        {%- endfor -%}
         </div>
     </div>
 {% endblock %}
