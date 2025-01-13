@@ -1,0 +1,22 @@
+{% extends "./base.html" %}
+{% block content %}
+    <div
+        class="caixa py-20">
+        <!-- Titular -->
+        <div class="max-w-2xl mx-auto text-center">
+            <div class="px-20">
+                <h1 class="text-5xl leading-tight mb-3 font-extrabold">
+                    {{ title }}
+                </h1>
+                <div class="max-w-lg">
+                    {{ descripcion | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="caixa py-20">
+        <div class="max-w-5xl">
+            {{ content | safe }}
+        </div>
+    </div>
+{% endblock %}

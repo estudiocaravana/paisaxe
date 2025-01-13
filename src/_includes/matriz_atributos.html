@@ -1,0 +1,7 @@
+<ul>
+    {%- for atributo in collections.atributo -%}
+        <li>
+            <a href="{{ atributo.url }}">{{ atributo.data.title }}</a>
+        </li>
+    {%- endfor -%}
+</ul>

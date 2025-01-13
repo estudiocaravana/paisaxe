@@ -1,3 +1,5 @@
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+
 module.exports = function (eleventyConfig) {
   // PassThroughCopy
   eleventyConfig.addPassthroughCopy("src/assets/css/tailwindcss.css");
@@ -15,6 +17,7 @@ module.exports = function (eleventyConfig) {
       return a.data.order - b.data.order;
     });
   });
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin);
   return {
     dir: {
       input: "src",
@@ -22,5 +25,7 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       layouts: "_layouts",
     },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
   };
 };
