@@ -31,24 +31,18 @@
     {% include 'localizacion.html' %}
     {% include 'delimitacion.html' %}
     <!-- Limite -->
-    <div class="caixa pt-36">
-        <div
-            class="flex items-center">
-            <!-- imagen -->
-            <div class="flex-1">
-                <img class="max-w-lg mx-auto" src="/assets/img/home/limite_grafico.png" alt=""/>
-            </div>
-            <!-- Texto -->
-            <div class="flex-1">
-                <h3 class="text-3xl">{{ limite }}</h3>
-                <div class="mt-5">
-                    {{ limite_cuerpo | safe }}
-                </div>
+    <div
+        class="caixa py-36">
+        <!-- Texto -->
+        <div class="text-center">
+            <h3 class="text-3xl">{{ limite }}</h3>
+            <div class="mt-5 mx-auto max-w-2xl">
+                {{ limite_cuerpo | safe }}
             </div>
         </div>
     </div>
     <!-- Criterio -->
-    <div class="caixa pt-60 pb-36 text-center">
+    <div class="caixa py-36 text-center border-t border-sky-400">
         <span class="text-sky-500 mb-3 block">Criterio</span>
         <h2 class="text-3xl max-w-xl mx-auto">{{ criterio }}</h2>
         <div class="max-w-2xl mx-auto mt-5">
@@ -74,5 +68,33 @@
         </div>
     </div>
     {% include 'trio_docs.html' %}
+    <!-- Fontes -->
+    <div class="caixa bg-sky-100" x-data="{ expanded: false }">
+        <div class="py-36 mx-auto max-w-3xl text-left">
+            <h2 class="text-3xl text-center">Fontes</h2>
+            <div class="mt-5">{{ fontes | safe }}</div>
+            <div x-show="expanded" x-collapse>
+                <div>{{ content | safe }}</div>
+                <a href="{{ fontes_link }}" target="_blank" class="boton outline">
+                    <div>
+                        <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                            <path d="m21 3-9 9"/>
+                            <path d="M15 3h6v6"/>
+                        </svg>
+                    </div>
+                    <div>Visitar web</div>
+                </a>
+            </div>
+            <button @click="expanded = ! expanded" class="absolute bottom-0 z-30 left-1/2 -translate-x-1/2 translate-y-1/2 bg-sky-100 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full mx-auto">
+                <div>
+                    <svg class="fill-none stroke-current stroke-2 size-6" :class="expanded ? 'rotate-180' : ''" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6 9 6 6 6-6"/>
+                    </svg>
+                </div>
+                <div>Seguir leyendo</div>
+            </button>
+        </div>
+    </div>
     {% include 'matriz_atributos.html' %}
 {% endblock %}

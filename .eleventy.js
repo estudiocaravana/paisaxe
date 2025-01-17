@@ -1,6 +1,13 @@
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true,
+  };
+  eleventyConfig.setLibrary("md", markdownIt(options));
   // PassThroughCopy
   eleventyConfig.addPassthroughCopy("src/assets/css/tailwindcss.css");
   eleventyConfig.addPassthroughCopy("src/assets/img");

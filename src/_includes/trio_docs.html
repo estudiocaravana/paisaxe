@@ -1,5 +1,73 @@
-<div class="caixa pt-60">
-    <div class="grid grid-cols-3 gap-12">
-        <div>{{ formulario.tit }}</div>
+<div class="caixa py-60">
+    <div class="flex flex-col gap-20">
+        <div class="dupla">
+            <div>
+                <img class="max-w-xs ml-auto rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/portadas/{{ formulario.imagen }}" alt="Portada {{ formulario.tit }}"></div>
+                <div>
+                    <h3 class="text-2xl block mt-12 mb-3">{{ formulario.tit }}</h3>
+                    <div class="max-w-md">{{ formulario.cuerpo | safe }}</div>
+                    <a href="{{ formulario.link }}" class="boton">
+                        <div>
+                            <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                                <path d="m21 3-9 9"/>
+                                <path d="M15 3h6v6"/>
+                            </svg>
+                        </div>
+                        <div>PDF</div>
+                    </a>
+                </div>
+            </div>
+            <div class="dupla">
+                <div>
+                    <img class="max-w-xs ml-auto rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/portadas/{{ bien.imagen }}" alt="Portada {{ formulario.tit }}"></div>
+                    <div>
+                        <h3 class="text-2xl block mt-12 mb-3">{{ bien.tit }}</h3>
+                        <div class="max-w-md">{{ bien.cuerpo | safe }}</div>
+                        <a href="{{ bien.link }}" class="boton outline">
+                            <div>
+                                <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                                    <path d="m21 3-9 9"/>
+                                    <path d="M15 3h6v6"/>
+                                </svg>
+                            </div>
+                            <div>Web</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="dupla">
+                    <div>
+                        <img class="max-w-xs ml-auto rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/portadas/{{ water.imagen }}" alt="Portada {{ formulario.tit }}"></div>
+                        <div>
+                            <h3 class="text-2xl block mt-12 mb-3">{{ water.tit }}</h3>
+                            <div class="max-w-md">{{ water.cuerpo | safe }}</div>
+                            <div class="dupla max-w-sm gap-6">
+                                <a href="{{ water.link }}" target="_blank" class="boton outline">
+                                    <div>
+                                        <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                                            <path d="m21 3-9 9"/>
+                                            <path d="M15 3h6v6"/>
+                                        </svg>
+                                    </div>
+                                    <div>Web</div>
+                                </a>
+                                <a href="{{ water.link_2 }}" target="_blank" class="boton">
+                                    <div>
+                                        <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                                            <path d="m21 3-9 9"/>
+                                            <path d="M15 3h6v6"/>
+                                        </svg>
+                                    </div>
+                                    <div>PDF</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

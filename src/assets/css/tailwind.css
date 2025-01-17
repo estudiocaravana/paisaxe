@@ -26,13 +26,20 @@
   p {
     @apply pt-5;
   }
-  p > strong {
+  p > strong,
+  p > b {
     @apply font-extrabold text-sky-500;
   }
   a,
   button {
     @apply transition-all duration-300;
   }
+  ol {
+    @apply list-decimal list-inside; 
+  }
+  ol > li {
+    @apply mt-6;
+  } 
   .sombra {
     @apply shadow-md shadow-sky-500/15;
   }
@@ -46,5 +53,11 @@
   }
   .swiper-button-prev::after {
     display: none;
+  }
+  a.boton {
+    @apply mt-9 bg-sky-500 text-sky-50 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full;
+  }
+  a.boton.outline {
+    @apply bg-transparent border border-sky-300 text-sky-500;
   }
 }
