@@ -24,6 +24,12 @@ module.exports = function (eleventyConfig) {
       return a.data.order - b.data.order;
     });
   });
+  // Page Sorting
+  eleventyConfig.addCollection("atributo", function (collections) {
+    return collections.getFilteredByTag("atributo").sort(function (a, b) {
+      return a.data.order - b.data.order;
+    });
+  });
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
   return {
     dir: {

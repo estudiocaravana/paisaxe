@@ -4,12 +4,12 @@
         class="caixa py-20">
         <!-- Titular -->
         <div class="max-w-2xl mx-auto text-center">
-            <div class="px-20">
-                <h1 class="text-5xl leading-tight mb-3 font-extrabold">
-                    <span class="text-sky-500">{{ tit }}</span><br/>
+            <div>
+                <h1 class="text-4xl sm:text-5xl mb-3 font-extrabold">
+                    <span class="text-sky-500 block mb-2">{{ tit }}</span>
                     {{ ulo }}
                 </h1>
-                <div class="max-w-lg">
+                <div class="max-w-lg mx-auto pt-3">
                     {{ descripcion | safe }}
                 </div>
             </div>
@@ -17,8 +17,8 @@
     </div>
     <!-- Video -->
     <div class="caixa">
-        <div class="overflow-hidden rounded-xl relative w-full bg-sky-900">
-            <img src="/assets/img/home/video.webp" alt="" class="w-full"/>
+        <div class="relative w-full bg-sky-900">
+            <img src="/assets/img/home/video.webp" alt="" class="w-full rounded-xl shadow-lg shadow-sky-800/20"/>
             <div class="flex items-center justify-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 size-12 rounded-full bg-white">
                 <div class="w-fit">
                     <svg class="fill-sky-500 stroke-none size-7" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
@@ -30,19 +30,8 @@
     </div>
     {% include 'localizacion.html' %}
     {% include 'delimitacion.html' %}
-    <!-- Limite -->
-    <div
-        class="caixa py-36">
-        <!-- Texto -->
-        <div class="text-center">
-            <h3 class="text-3xl">{{ limite }}</h3>
-            <div class="mt-5 mx-auto max-w-2xl">
-                {{ limite_cuerpo | safe }}
-            </div>
-        </div>
-    </div>
     <!-- Criterio -->
-    <div class="caixa py-36 text-center border-t border-sky-400">
+    <div class="caixa py-36 text-center">
         <span class="text-sky-500 mb-3 block">Criterio</span>
         <h2 class="text-3xl max-w-xl mx-auto">{{ criterio }}</h2>
         <div class="max-w-2xl mx-auto mt-5">
@@ -63,7 +52,7 @@
                         <path d="m6 9 6 6 6-6"/>
                     </svg>
                 </div>
-                <div>Seguir leyendo</div>
+                <div class="whitespace-nowrap">Seguir leyendo</div>
             </button>
         </div>
     </div>
@@ -92,7 +81,7 @@
                         <path d="m6 9 6 6 6-6"/>
                     </svg>
                 </div>
-                <div>Seguir leyendo</div>
+                <div class="whitespace-nowrap">Seguir leyendo</div>
             </button>
         </div>
     </div>

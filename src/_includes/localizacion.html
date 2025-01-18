@@ -1,34 +1,45 @@
-<div class="caixa">
-    <div class="max-w-lg pt-36 pb-36 mx-auto text-center">
+<div class="caixa pb-20">
+    <div class="max-w-lg pt-20 sm:pt-36 mx-auto text-center">
         <h2>Localización</h2>
         {{loca | safe}}
     </div>
+    <!-- 
+                                                                                    <a href="https://maps.app.goo.gl/trAWxzJQNPfdTYFc7" target="_blank" class="mt-12 bg-white text-sky-500 border border-sky-400 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full mx-auto">
+                                                                                        <div>
+                                                                                            <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                                                                                                <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                                                                                                <path d="m21 3-9 9"/>
+                                                                                                <path d="M15 3h6v6"/>
+                                                                                            </svg>
+                                                                                        </div>
+                                                                                        <div>Google maps</div>
+                                                                                    </a>
+                                                                                    -->
 </div>
 <!-- mapas -->
-<div class="caixa pt-20">
-    <div class="py-9 flex *:bg-white *:p-6 rounded-xl overflow-hidden border border-sky-400">
-        <div><img src="/assets/img/home/localizacion/world.webp" alt=""/></div>
-        <div><img src="/assets/img/home/localizacion/europe.webp" alt=""/></div>
-        <div><img src="/assets/img/home/localizacion/spain.webp" alt=""/></div>
-        <div><img src="/assets/img/home/localizacion/galician.webp" alt=""/></div>
+<div class="caixa">
+    <div class="py-9 grid grid-cols-2 md:grid-cols-4 *:bg-white *:border *:border-sky-400 *:rounded-xl *:overflow-hidden *:p-3 gap-6 rounded-xl overflow-hidden">
+        <div><img src="/assets/img/home/localizacion/world.webp" class="rounded-lg" alt=""/></div>
+        <div><img src="/assets/img/home/localizacion/europe.webp" class="rounded-lg" alt=""/></div>
+        <div><img src="/assets/img/home/localizacion/spain.webp" class="rounded-lg" alt=""/></div>
+        <div><img src="/assets/img/home/localizacion/galician.webp" class="rounded-lg" alt=""/></div>
     </div>
-    <a href="https://maps.app.goo.gl/trAWxzJQNPfdTYFc7" target="_blank" class="-mt-9 bg-white text-sky-500 border border-sky-400 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full mx-auto">
-        <div>
-            <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
-                <path d="m21 3-9 9"/>
-                <path d="M15 3h6v6"/>
-            </svg>
+</div>
+<!-- limite -->
+<div class="caixa pt-20">
+    <div class="text-center">
+        <h3 class="text-3xl">{{ limite }}</h3>
+        <div class="mt-5 mx-auto max-w-2xl">
+            {{ limite_cuerpo | safe }}
         </div>
-        <div>Google maps</div>
-    </a>
+    </div>
 </div>
 <!-- Mapa -->
 <div class="caixa">
-    <div class="py-20 relative">
-        <img class="w-full rounded-xl border border-sky-400" src="/assets/img/home/plano.webp" alt=""/>
+    <div class="pt-20 relative">
+        <img class="w-full rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/plano.webp" alt=""/>
     </div>
-    <a href="/pdf/PlanoCandidatura.pdf" target="_blank" class="mb-20 absolute bottom-0 z-30 left-1/2 -translate-x-1/2 translate-y-1/2 bg-sky-500 text-sky-50 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full mx-auto">
+    <a href="/pdf/PlanoCandidatura.pdf" target="_blank" class="mx-auto mt-12 bg-sky-500 text-sky-50 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full">
         <div>
             <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>

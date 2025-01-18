@@ -1,12 +1,12 @@
 <div class="caixa py-60">
     <div class="flex flex-col gap-20">
-        <div class="dupla">
+        <div class="dupla gap-3 text-center xl:text-left xl:gap-20">
             <div>
                 <img class="max-w-xs ml-auto rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/portadas/{{ formulario.imagen }}" alt="Portada {{ formulario.tit }}"></div>
                 <div>
                     <h3 class="text-2xl block mt-12 mb-3">{{ formulario.tit }}</h3>
                     <div class="max-w-md">{{ formulario.cuerpo | safe }}</div>
-                    <a href="{{ formulario.link }}" class="boton">
+                    <a href="{{ formulario.link }}" class="boton mx-auto xl:mx-0">
                         <div>
                             <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
@@ -18,13 +18,13 @@
                     </a>
                 </div>
             </div>
-            <div class="dupla">
+            <div class="dupla gap-3 text-center xl:text-left xl:gap-20">
                 <div>
                     <img class="max-w-xs ml-auto rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/portadas/{{ bien.imagen }}" alt="Portada {{ formulario.tit }}"></div>
                     <div>
                         <h3 class="text-2xl block mt-12 mb-3">{{ bien.tit }}</h3>
                         <div class="max-w-md">{{ bien.cuerpo | safe }}</div>
-                        <a href="{{ bien.link }}" class="boton outline">
+                        <a href="{{ bien.link }}" class="boton outline mx-auto xl:mx-0">
                             <div>
                                 <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
@@ -36,13 +36,13 @@
                         </a>
                     </div>
                 </div>
-                <div class="dupla">
+                <div class="dupla gap-3 text-center xl:text-left xl:gap-20">
                     <div>
                         <img class="max-w-xs ml-auto rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/portadas/{{ water.imagen }}" alt="Portada {{ formulario.tit }}"></div>
                         <div>
                             <h3 class="text-2xl block mt-12 mb-3">{{ water.tit }}</h3>
                             <div class="max-w-md">{{ water.cuerpo | safe }}</div>
-                            <div class="dupla max-w-sm gap-6">
+                            <div class="flex max-w-sm mx-auto xl:mx-0 gap-6">
                                 <a href="{{ water.link }}" target="_blank" class="boton outline">
                                     <div>
                                         <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
