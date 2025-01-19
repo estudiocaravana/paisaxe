@@ -1,7 +1,7 @@
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 const markdownIt = require("markdown-it");
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
   let options = {
     html: true,
     breaks: true,
@@ -25,8 +25,13 @@ module.exports = function (eleventyConfig) {
     });
   });
   // Page Sorting
-  eleventyConfig.addCollection("atributo", function (collections) {
-    return collections.getFilteredByTag("atributo").sort(function (a, b) {
+  eleventyConfig.addCollection("atributo_es", function (collection) {
+    return collection.getFilteredByGlob("./src/es/atributos/*.md").sort(function (a, b) {
+      return a.data.order - b.data.order;
+    });
+  });
+  eleventyConfig.addCollection("atributo_en", function (collection) {
+    return collection.getFilteredByGlob("./src/en/atributos/*.md").sort(function (a, b) {
       return a.data.order - b.data.order;
     });
   });

@@ -3,9 +3,9 @@
     <div
         class="caixa pt-20">
         <!-- Titular -->
-        <div class="max-w-2xl mx-auto text-center">
+        <div class="max-w-xl mx-auto text-center">
             <div>
-                <h1 class="text-4xl sm:text-5xl text-sky-500 leading-tight mb-3 font-extrabold">
+                <h1 class="text-4xl sm:text-5xl text-sky-500 !leading-snug inline-block mb-3 font-extrabold">
                     {{ title }}
                 </h1>
                 <div class="max-w-lg mx-auto">
@@ -36,8 +36,8 @@
                 </div>
             </div>
             <div class="caixa py-36 border-b border-sky-400">
-                {% set prev = collections.atributo | getPreviousCollectionItem(page) %}
-                {% set next = collections.atributo | getNextCollectionItem(page) %}
+                {% set prev = collections["atributo_" + locale] | getPreviousCollectionItem(page) %}
+                {% set next = collections["atributo_" + locale] | getNextCollectionItem(page) %}
                 <div class="flex flex-col md:flex-row gap-20 text-sky-500">
                     <div class="md:flex-1">
                         {% if prev %}

@@ -1,7 +1,8 @@
 <div class="caixa pt-60 pb-36">
     <h2 class="text-3xl text-center">Atributos</h2>
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-20">
-        {%- for atributo in collections.atributo -%}
+        {% set atributo = collections["atributo_" + locale] %}
+        {%- for atributo in atributo -%}
             <div class="border border-sky-300 overflow-hidden rounded-2xl">
                 <a href="{{ atributo.url }}" class="block lg:min-h-96 py-12 px-9 relative hover:bg-sky-100">
                     <div class="absolute top-6 right-6">
