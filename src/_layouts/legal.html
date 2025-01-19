@@ -1,0 +1,7 @@
+{% extends "./base.html" %}
+{% block content %}
+    <div class="caixa">
+        <h1 class="text-center text-3xl pt-20">{{ title }}</h1>
+        <div class="max-w-5xl mx-auto mt-20">{{ content | safe }}</div>
+    </div>
+{% endblock %}

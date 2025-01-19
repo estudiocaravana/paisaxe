@@ -1,15 +1,12 @@
-<div class="caixa mb-20 rounded-b-xl">
-    <div class="py-24">
+<div class="caixa 2xl:mb-20 2xl:rounded-b-xl">
+    <div class="pt-36 pb-24">
         <div class="max-w-3xl mx-auto">
-            <div class="flex items-center gap-24 w-fit mx-auto">
+            <div class="flex flex-col lg:flex-row lg:items-center gap-12 lg:gap-44 w-fit mx-auto">
                 <div>
-                    <img class="h-12 w-auto" src="/assets/img/cultura.webp" alt="Ministerio de cultura"/>
+                    <img eleventy:widths="220" src="/assets/img/xunta.webp" alt="Xunta de Galicia"/>
                 </div>
                 <div>
-                    <img class="w-32 h-auto" src="/assets/img/logo_es.webp" alt="Riberira Sacra Paisaxe da Auga"/>
-                </div>
-                <div>
-                    <img class="h-12 w-auto" src="/assets/img/xunta.webp" alt="Xunta de Galicia"/>
+                    <img eleventy:widths="200" src="/assets/img/cultura.webp" alt="Ministerio de cultura"/>
                 </div>
             </div>
         </div>
@@ -17,9 +14,9 @@
     <!-- legal y arriba -->
     <div class="flex items-center pt-12 pb-12">
         <div>
-            <a href="#" class="hover:text-sky-500">Textos legales</a>
+            <a href="/legal" class="text-sky-500 hover:text-sky-800 underline underline-offset-8">Textos legales</a>
         </div>
-        <button class="flex items-center justify-center hover:text-sky-500 ml-auto" x-data="x-data" @click="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <button class="flex items-center justify-center text-sky-500 hover:text-sky-800 ml-auto" x-data="x-data" @click="window.scrollTo({top: 0, behavior: 'smooth'})">
             <svg class="fill-none stroke-current stroke-2 size-12" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
                 <path d="m17 11-5-5-5 5"></path>
                 <path d="m17 18-5-5-5 5"></path>

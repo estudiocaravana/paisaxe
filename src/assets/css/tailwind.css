@@ -10,7 +10,7 @@
     @apply scroll-smooth antialiased;
   }
   body {
-    @apply font-sans text-base leading-relaxed sm:text-xl sm:leading-normal font-medium text-sky-900;
+    @apply font-sans text-lg leading-relaxed sm:text-xl sm:leading-normal font-medium text-sky-900;
   }
   .caixa {
     @apply max-w-screen-2xl mx-auto px-6 sm:px-12 xl:px-20 bg-white shadow-lg shadow-sky-500/30 relative;
@@ -59,5 +59,8 @@
   }
   a.boton.outline {
     @apply bg-transparent border border-sky-300 text-sky-500;
+  }
+  ul.menu >li > a {
+    @apply block hover:text-sky-300;
   }
 }

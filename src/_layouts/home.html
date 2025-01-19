@@ -1,7 +1,11 @@
 {% extends "./base.html" %}
 {% block content %}
     <div
-        class="caixa py-20">
+        class="caixa lg:pt-20">
+        <!-- -->
+        <div class="w-28 mx-auto pt-12 pb-6 lg:hidden">
+            {% include 'svg/logo.svg' %}
+        </div>
         <!-- Titular -->
         <div class="max-w-2xl mx-auto text-center">
             <div>
@@ -16,16 +20,9 @@
         </div>
     </div>
     <!-- Video -->
-    <div class="caixa">
-        <div class="relative w-full bg-sky-900">
-            <img src="/assets/img/home/video.webp" alt="" class="w-full rounded-xl shadow-lg shadow-sky-800/20"/>
-            <div class="flex items-center justify-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 size-12 rounded-full bg-white">
-                <div class="w-fit">
-                    <svg class="fill-sky-500 stroke-none size-7" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                        <polygon points="6 3 20 12 6 21 6 3"></polygon>
-                    </svg>
-                </div>
-            </div>
+    <div class="caixa py-20">
+        <div class="relative w-full bg-sky-900 rounded-xl shadow-lg shadow-sky-800/20 overflow-y-hidden">
+            <img src="/assets/img/home/video.webp" alt="" class="block"/>
         </div>
     </div>
     {% include 'localizacion.html' %}

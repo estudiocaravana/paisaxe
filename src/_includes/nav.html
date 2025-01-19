@@ -3,14 +3,14 @@
     class="flex items-center gap-12">
     <!-- Logo -->
     <div class="flex-1">
-      <a href="/">
+      <a href="/" class="text-sky-500 hover:text-sky-400">
         <div class="flex items-center">
-          <div>
-            <img src="/assets/img/favicon.svg" alt="Logo Paisaxe da auga" class="h-10 w-auto"/>
+          <div class="hidden lg:block w-20">
+            {% include 'svg/logo.svg' %}
           </div>
           <div class="text-base font-semibold ml-4">
-            <span class="text-sky-500">Ribeira Sacra</span><br/>
-            Paisaxe da auga
+            Ribeira Sacra<br/>
+            <span class="text-sky-900">Paisaxe da auga</span>
           </div>
         </div>
       </a>
@@ -31,8 +31,8 @@
     </div>
     <!-- Menu -->
     <div class="lg:flex-1" x-data="{menu : false}">
-      <button class="ml-auto block" @click="menu = true">
-        <svg class="fill-none stroke-sky-600 stroke-2 size-14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <button class="ml-auto block text-sky-500 hover:text-sky-700" @click="menu = true">
+        <svg class="fill-none stroke-current stroke-2 size-14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
           <path d="M13 12h8"/>
           <path d="M13 18h8"/>
           <path d="M13 6h8"/>
@@ -46,40 +46,32 @@
       </button>
       <div class="absolute top-6 left-1/2 -translate-x-1/2 overflow-hidden w-full max-w-screen-2xl h-full rounded-xl z-40" x-show="menu" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-transition:enter="transition ease-out duration-300" x-transition:leave="transition ease-in duration-300">
         <div class="absolute right-0 top-0 bottom-0 bg-sky-500 text-sky-50 max-w-xl h-fit px-12 pb-20 rounded-bl-xl" @click.outside="menu = false" x-show="menu" x-transition:enter-start="translate-x-24" x-transition:enter-end="translate-x-0" x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-24" x-transition:enter="transition ease-out duration-300" x-transition:leave="transition ease-in duration-300">
-          <div class="pt-9 pr-9">
-            <button class="ml-auto block" @click="menu = false">
-              <svg class="fill-none stroke-sky-600 stroke-2 size-14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M13 12h8"/>
-                <path d="M13 18h8"/>
-                <path d="M13 6h8"/>
-                <path d="M3 12h1"/>
-                <path d="M3 18h1"/>
-                <path d="M3 6h1"/>
-                <path d="M8 12h1"/>
-                <path d="M8 18h1"/>
-                <path d="M8 6h1"/>
+          <div class="pt-12">
+            <button class="ml-auto block text-white hover:text-sky-200" @click="menu = false">
+              <svg class="fill-none stroke-current stroke-2 size-14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
               </svg>
             </button>
           </div>
           <div>
-            <ul class="space-y-6">
+            <ul class="space-y-6 menu">
               <li>
                 <a href="/">Inicio</a>
               </li>
-              {%- for atributo in collections.atributo -%}
-                <li class="max-w-[260px]">
-                  <a href="{{ atributo.url }}">
-                    {{ atributo.data.title }}
-                  </a>
-                </li>
-              {%- endfor -%}
-              <li>
-                <a href="/legal">Textos legales</a>
-              </li>
-            </ul>
+              <hr>
+                {%- for atributo in collections.atributo -%}
+                  <li class="max-w-[260px]">
+                    <a href="{{ atributo.url }}">
+                      {{ atributo.data.title }}
+                    </a>
+                  </li>
+                {%- endfor -%}
+                <hr>
+                  <li><a href="/legal">Textos legales</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
