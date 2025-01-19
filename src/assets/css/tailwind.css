@@ -63,4 +63,10 @@
   ul.menu >li > a {
     @apply block hover:text-sky-300;
   }
+  ul.idiomas > li > a {
+    @apply rounded-full size-12 flex items-center justify-center hover:bg-sky-50;
+  }
+  ul.idiomas > li > a.active {
+    @apply bg-white sombra;
+  }
 }

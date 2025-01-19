@@ -10,22 +10,22 @@
           </div>
           <div class="text-base font-semibold ml-4">
             Ribeira Sacra<br/>
-            <span class="text-sky-900">Paisaxe da auga</span>
+            <span class="text-sky-900">{{ site[locale].leyenda }}</span>
           </div>
         </div>
       </a>
     </div>
     <!-- Idiomas -->
     <div class="hidden lg:block">
-      <ul class="flex gap-2 rounded-full bg-sky-100 p-2 text-sm sombra_interior">
+      <ul class="flex gap-2 rounded-full bg-sky-100 p-2 text-sm sombra_interior idiomas">
         <li>
-          <a href="/es" class="rounded-full size-12 flex items-center justify-center bg-white sombra">es</a>
+          <a href="/es" class="{% if locale == "es" %}active{% endif %}">es</a>
         </li>
         <li>
-          <a href="/en" class="rounded-full size-12 flex items-center justify-center hover:bg-sky-50">en</a>
+          <a href="/en" class="{% if locale == "en" %}active{% endif %}">en</a>
         </li>
         <li>
-          <a href="/gl/" class="rounded-full size-12 flex items-center justify-center hover:bg-sky-50">gl</a>
+          <a href="/gl" class="{% if locale == "gl" %}active{% endif %}">gl</a>
         </li>
       </ul>
     </div>
