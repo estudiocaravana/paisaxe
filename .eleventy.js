@@ -26,19 +26,25 @@ module.exports = async function (eleventyConfig) {
   });
   // Page Sorting
   eleventyConfig.addCollection("atributo_es", function (collection) {
-    return collection.getFilteredByGlob("./src/es/atributos/*.md").sort(function (a, b) {
-      return a.data.order - b.data.order;
-    });
+    return collection
+      .getFilteredByGlob("./src/es/atributos/*.md")
+      .sort(function (a, b) {
+        return a.data.order - b.data.order;
+      });
   });
   eleventyConfig.addCollection("atributo_en", function (collection) {
-    return collection.getFilteredByGlob("./src/en/atributos/*.md").sort(function (a, b) {
-      return a.data.order - b.data.order;
-    });
+    return collection
+      .getFilteredByGlob("./src/en/atributos/*.md")
+      .sort(function (a, b) {
+        return a.data.order - b.data.order;
+      });
   });
   eleventyConfig.addCollection("atributo_gl", function (collection) {
-    return collection.getFilteredByGlob("./src/gl/atributos/*.md").sort(function (a, b) {
-      return a.data.order - b.data.order;
-    });
+    return collection
+      .getFilteredByGlob("./src/gl/atributos/*.md")
+      .sort(function (a, b) {
+        return a.data.order - b.data.order;
+      });
   });
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
   return {

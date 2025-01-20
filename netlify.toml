@@ -1,3 +1,23 @@
 [build]
     publish = "_site"
     command = "npm run build"
+
+[[redirects]]
+  from = "/"
+  to = "/gl"
+  status = 302
+  force= true
+  conditions = {Language = ["gl"]}
+
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 302
+  force = true
+  conditions = {Language = ["en"]}
+
+[[redirects]]
+  from = "/"
+  to = "/es"
+  status = 302
+  force = true
