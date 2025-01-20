@@ -1,7 +1,7 @@
 ---
 order: 1
 layout: legal
-title: Legal texts
+title: Legal Notice
 metadescripcion: Textos legales Candidatura de Ribeira Sacra Paisaje del Agua a la Lista del Patrimonio Mundial
 ---
 

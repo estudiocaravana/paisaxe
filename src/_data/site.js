@@ -6,7 +6,7 @@ module.exports = {
   },
   en: {
     leyenda: "Waterscape",
-    legales: "Legal text",
+    legales: "Legal notice",
     vermas: "See more",
   },
   gl: {
