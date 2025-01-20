@@ -14,7 +14,7 @@
     <!-- legal y arriba -->
     <div class="flex items-center pt-12 pb-12">
         <div>
-            <a href="/legal" class="text-sky-500 hover:text-sky-800 underline underline-offset-8">{{ site[locale].legales }}</a>
+            <a href="/{{ locale }}/legal" class="text-sky-500 hover:text-sky-800 underline underline-offset-8">{{ site[locale].legales }}</a>
         </div>
         <button class="flex items-center justify-center text-sky-500 hover:text-sky-800 ml-auto" x-data="x-data" @click="window.scrollTo({top: 0, behavior: 'smooth'})">
             <svg class="fill-none stroke-current stroke-2 size-12" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">

@@ -5,13 +5,62 @@ title: Textos legales
 metadescripcion: Textos legales Candidatura de Ribeira Sacra Paisaje del Agua a la Lista del Patrimonio Mundial
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a mi eget tortor ultrices ornare ut at neque. Aenean nec aliquet orci. Pellentesque lacinia ullamcorper sapien, et cursus massa tempus quis. Aenean tincidunt sem lacus, quis egestas neque posuere quis. Vestibulum porttitor placerat faucibus. Integer fringilla, elit et lacinia pulvinar, urna nunc varius magna, quis cursus nulla sapien et odio. Nunc feugiat risus finibus laoreet gravida. Vivamus sed tempus orci. Donec consectetur maximus vehicula. Sed ante nibh, dignissim vel consequat ac, lacinia eget tortor.
+## Información xeral
 
-Suspendisse vitae commodo nunc. Mauris vitae commodo erat, non lacinia libero. Ut ligula dolor, aliquet sollicitudin tempus eu, imperdiet at dui. Aenean sit amet magna sem. Sed et ipsum a augue rutrum tincidunt ut vel urna. Etiam blandit metus elit, eget tempus massa posuere sed. Phasellus pellentesque lacinia consectetur. Aliquam feugiat porta dolor, sit amet elementum massa aliquam et. Ut imperdiet sollicitudin lorem ac condimentum. Fusce cursus, nisl a finibus sagittis, lorem mauris mattis ligula, in fermentum massa nibh ut leo. Aenean id lacus pellentesque, malesuada arcu a, vulputate diam. Sed non magna quis tortor viverra rhoncus. Quisque metus odio, sollicitudin ultrices efficitur quis, posuere et ipsum.
+As presentes disposicións regulan o uso do servizo do formulario dixital (en diante, o “Formulario") que a _Xunta de Galicia_ pon a disposición dos usuarios de internet.
 
-Maecenas lacinia ullamcorper urna quis porttitor. Quisque venenatis dolor tempor tincidunt pretium. Integer vel mauris eu ex egestas ornare. Morbi ac odio a enim rhoncus rhoncus pretium eu lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla rhoncus ex vel dignissim suscipit. Nullam et venenatis odio. Praesent sed cursus diam. Sed maximus ligula ut magna facilisis, nec consectetur dui tempor. Vestibulum fermentum semper diam eget ultrices. Fusce vitae massa vel erat faucibus tristique.
+A _Xunta de Galicia_ é a titular do dominio “ribeirasacrapaisaxedaauga.gal” e dos distintos elementos nel incluídos.
 
-Nullam lobortis ut eros rutrum fringilla. Vivamus efficitur, elit non fermentum venenatis, justo ex laoreet purus, nec hendrerit diam orci ut tellus. In facilisis pharetra urna nec sagittis. Mauris eu felis eu magna vehicula hendrerit. Integer non accumsan metus. Maecenas ac sapien magna. Fusce eget convallis augue. Nunc sit amet lectus vestibulum, ullamcorper nisl eget, ornare orci. Sed id hendrerit mi. Pellentesque fermentum finibus elit id efficitur. Etiam interdum vehicula cursus. Proin viverra erat id nisl aliquet pellentesque. Praesent non lacinia metus.
+O contido facilitado a través deste Formulario emítese con efectos simplemente informativos e non substitúe a publicidade das disposicións e actos que teñan que ser publicados formalmente en boletíns oficiais. Aínda que se efectuarán os esforzos precisos para que a información contida sexa exacta e actualizada, a _Xunta de Galicia_ non garante a inexistencia de erros no contido deste Formulario, nin que se atope totalmente actualizado.
 
-Praesent efficitur leo eros, in blandit nulla pellentesque non. Aenean at tempor elit. Aliquam quam elit, placerat eu interdum lacinia, efficitur a nunc. Nam tempus, ipsum sit amet eleifend maximus, nunc tortor tristique mauris, sit amet sagittis ipsum augue in eros. Aliquam ut tempor lectus. Aliquam lobortis mattis orci, vel semper quam aliquet vitae. Nunc felis velit, scelerisque sit amet nibh ac, efficitur imperdiet turpis. Integer erat orci, condimentum non mi sit amet, interdum ornare dui. Donec dictum euismod urna. Etiam suscipit velit nisi, sed hendrerit felis aliquam nec. Praesent porta libero id dui commodo, sed fermentum tortor blandit. Vivamus molestie facilisis magna, vitae sodales lorem elementum ut. Vestibulum vel erat velit.
+A _Xunta de Galicia_ non se fai responsable dos danos e prexuízos que puidese ocasionar o uso ilexítimo ou inadecuado das ferramentas e informacións contidas no Formulario con excepción de todas aquelas actuacións que resulten da aplicación das disposicións legais ás que deba someterse no estrito exercicio das súas competencias.
 
+A _Xunta de Galicia_ non asume responsabilidade algunha derivada da conexión ou contidos das ligazóns a páxinas externas sobre as que non se ten ningún control, debendo o usuario deste Formulario, en todo caso, aterse ás condicións de uso específicas das devanditas ligazóns.
+
+A _Xunta de Galicia_ resérvase a facultade de efectuar, en calquera momento e sen necesidade de aviso previo, modificacións e actualizacións sobre a información contida ou na súa configuración ou presentación.
+
+<br>
+
+## Propiedade intelectual e industrial
+
+Os dereitos de propiedade intelectual deste sitio web e dos seus elementos contidos son titularidade da Administración xeral e do sector público autonómico de Galicia.
+
+A información dispoñible neste Formulario, salvo indicación expresa en contrario, é susceptible de reutilización, quedando autorizada a súa reprodución total ou parcial, modificación, distribución e comunicación, para usos comerciais e non comerciais, con suxeición ás seguintes condicións:
+
+Queda prohibida en calquera circunstancia a desnaturalización do contido da información.
+O usuario queda obrigado a citar a fonte dos documentos obxecto da reutilización.
+Esta licenza non reduce ou restrinxe os dereitos exclusivos do titular dos dereitos de propiedade intelectual, tales como o deseño do Formulario e códigos fonte, marcas, nomes comerciais, logos ou signos distintivos, de acordo coa Lei de propiedade intelectual ou calquera outras leis aplicables.
+
+<br>
+
+## Privacidade
+
+Coa súa navegación, vostede presta o consentimento para recibir as cookies que utiliza o Formulario, que en ningún caso se empregan para recoller información de carácter persoal. Son de dous tipos:
+
+Cookies propias: son enviadas aos seu equipo e xestionadas exclusivamente pola _Xunta de Galicia_, que só obtén e conserva a información relativa aos datos de sesión e idioma. Estas cookies son necesarias para o correcto funcionamento e visualización do Formulario por parte do usuario.
+
+Cookies analíticas de terceiro: o Formulario usa as cookies da ferramenta Google Analytics, que realiza unha medición e análise estatística da navegación dos usuarios na web, co fin de mellorar os servizos que ofrece o Formulario. A información que xera a cookie é directamente transmitida e arquivada por Google.
+
+Para garantir o anonimato, Google converte a súa información en anónima truncando a dirección IP antes de almacenala. Tampouco asocia a súa dirección IP truncada a ningún outro dato conservado por Google, nin pode enviar a información recollida por Google Analytics a terceiros salvo cando estea legalmente obrigado a facelo, conforme as condicións de prestación do servizo de Google Analytics.
+
+Se vostede desexa denegar o permiso para o tratamento estatístico dos datos ou da información con Google Analytics, prema aquí.
+
+Lembrámoslle que deberá executar esta acción cada vez que cambie de navegador ou a súa configuración, ou se elimina as cookies, posto que o indicador de denegación se garda nunha cookie.
+
+<br>
+
+## Protección de datos
+
+As persoas usuarias deste portal teñen á súa disposición toda a información relativa ao tratamento dos datos persoais levado a cabo pola _Xunta de Galicia_, incluíndo o modo no que poden exercitar os dereitos, o contacto cos delegados e as delegadas de protección de datos e demais aspectos segundo os termos esixidos polo Regulamento europeo de protección de datos persoais, na seguinte ligazón: información sobre protección de datos persoais.
+
+<br>
+
+## Uso de linguas
+
+O artigo 13 da Lei 39/2015, do 1 de outubro, do Procedemento Administrativo Común das Administracións Públicas, garante o exercicio dos dereitos lingüísticos recoñecidos no ordenamento xurídico e, en particular, os referidos ao uso do galego nas relacións da cidadanía coa Administración pública de Galicia. A estes efectos, o Formulario posibilitará o acceso aos seus contidos e servizos en galego e castelán.
+
+<br>
+
+## Lei aplicable e xurisdición
+
+Para toda cuestión litixiosa ou que incumba ao Formulario, será de aplicación a lexislación española, sendo competentes para a resolución de todos os conflitos derivados ou relacionados co uso do presente Formulario, os Xulgados e Tribunais da cidade de Santiago de Compostela.

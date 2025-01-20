@@ -1,17 +1,66 @@
 ---
 order: 1
 layout: legal
-title: Textos legales
+title: Legal texts
 metadescripcion: Textos legales Candidatura de Ribeira Sacra Paisaje del Agua a la Lista del Patrimonio Mundial
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a mi eget tortor ultrices ornare ut at neque. Aenean nec aliquet orci. Pellentesque lacinia ullamcorper sapien, et cursus massa tempus quis. Aenean tincidunt sem lacus, quis egestas neque posuere quis. Vestibulum porttitor placerat faucibus. Integer fringilla, elit et lacinia pulvinar, urna nunc varius magna, quis cursus nulla sapien et odio. Nunc feugiat risus finibus laoreet gravida. Vivamus sed tempus orci. Donec consectetur maximus vehicula. Sed ante nibh, dignissim vel consequat ac, lacinia eget tortor.
+## General information
 
-Suspendisse vitae commodo nunc. Mauris vitae commodo erat, non lacinia libero. Ut ligula dolor, aliquet sollicitudin tempus eu, imperdiet at dui. Aenean sit amet magna sem. Sed et ipsum a augue rutrum tincidunt ut vel urna. Etiam blandit metus elit, eget tempus massa posuere sed. Phasellus pellentesque lacinia consectetur. Aliquam feugiat porta dolor, sit amet elementum massa aliquam et. Ut imperdiet sollicitudin lorem ac condimentum. Fusce cursus, nisl a finibus sagittis, lorem mauris mattis ligula, in fermentum massa nibh ut leo. Aenean id lacus pellentesque, malesuada arcu a, vulputate diam. Sed non magna quis tortor viverra rhoncus. Quisque metus odio, sollicitudin ultrices efficitur quis, posuere et ipsum.
+These provisions regulate the use of the digital Form service (hereinafter, the "Form") that the _Xunta de Galicia_ makes available to Internet users.
 
-Maecenas lacinia ullamcorper urna quis porttitor. Quisque venenatis dolor tempor tincidunt pretium. Integer vel mauris eu ex egestas ornare. Morbi ac odio a enim rhoncus rhoncus pretium eu lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla rhoncus ex vel dignissim suscipit. Nullam et venenatis odio. Praesent sed cursus diam. Sed maximus ligula ut magna facilisis, nec consectetur dui tempor. Vestibulum fermentum semper diam eget ultrices. Fusce vitae massa vel erat faucibus tristique.
+The _Xunta de Galicia_ is the holder of the domain "ribeirasacrapaisaxedaauga.gal" and of the different elements included in it.
 
-Nullam lobortis ut eros rutrum fringilla. Vivamus efficitur, elit non fermentum venenatis, justo ex laoreet purus, nec hendrerit diam orci ut tellus. In facilisis pharetra urna nec sagittis. Mauris eu felis eu magna vehicula hendrerit. Integer non accumsan metus. Maecenas ac sapien magna. Fusce eget convallis augue. Nunc sit amet lectus vestibulum, ullamcorper nisl eget, ornare orci. Sed id hendrerit mi. Pellentesque fermentum finibus elit id efficitur. Etiam interdum vehicula cursus. Proin viverra erat id nisl aliquet pellentesque. Praesent non lacinia metus.
+The content provided through this Form is issued for information purposes only and does not replace the publication of the provisions and acts that have to be formally published in official gazettes. Although every effort will be made to ensure that the information contained herein is accurate and up to date, the _Xunta de Galicia_ does not guarantee the absence of errors in the content of this Form, nor that it is totally up to date.
 
-Praesent efficitur leo eros, in blandit nulla pellentesque non. Aenean at tempor elit. Aliquam quam elit, placerat eu interdum lacinia, efficitur a nunc. Nam tempus, ipsum sit amet eleifend maximus, nunc tortor tristique mauris, sit amet sagittis ipsum augue in eros. Aliquam ut tempor lectus. Aliquam lobortis mattis orci, vel semper quam aliquet vitae. Nunc felis velit, scelerisque sit amet nibh ac, efficitur imperdiet turpis. Integer erat orci, condimentum non mi sit amet, interdum ornare dui. Donec dictum euismod urna. Etiam suscipit velit nisi, sed hendrerit felis aliquam nec. Praesent porta libero id dui commodo, sed fermentum tortor blandit. Vivamus molestie facilisis magna, vitae sodales lorem elementum ut. Vestibulum vel erat velit.
+The _Xunta de Galicia_ is not responsible for any damages that may be caused by the illegitimate or inappropriate use of the tools and information contained in the Form with the exception of any actions resulting from the application of the legal provisions to which it is subject in the strict exercise of its powers.
 
+The _Xunta de Galicia_ does not assume any responsibility derived from the connection or contents of the links to external pages over which it has no control, and the user of this Form must, in any case, abide by the specific conditions of use of these links.
+
+The _Xunta de Galicia_ reserves the right to carry out modifications and updates on the information contained or in its configuration or presentation at any time and without prior notice.
+
+<br>
+
+##Intellectual and industrial property
+
+The intellectual property rights of this website and its contents are owned by the General Administration and the autonomous public sector of Galicia.
+
+The information available on this Form, unless expressly indicated to the contrary, may be reused, and may be reproduced, modified, distributed and communicated, in whole or in part, for commercial and non-commercial purposes, subject to the following conditions:
+
+Any distortion of the content of the information is prohibited under any circumstances.
+The user is obliged to cite the source of the documents to be re-used.
+This licence does not reduce or restrict the exclusive rights of the owner of intellectual property rights, such as the design of the Form and source codes, trademarks, trade names, logos or distinctive signs, in accordance with the Copyright Law or any other applicable laws.
+
+<br>
+
+## Privacy
+
+By browsing the Website, you give your consent to receive the cookies used by the Form, which are not under any circumstances used to collect personal information. They are of two types:
+
+Own cookies: these are sent to your computer and managed exclusively by the _Xunta de Galicia_, which only obtains and keeps the information related to session and language data. These cookies are necessary for the correct functioning and visualization of the Form by the user.
+
+Third-party analytical cookies: the Form uses cookies from the Google Analytics tool, which measures and statistically analyses the browsing of users on the website in order to improve the services offered by the Form. The information generated by the cookie is directly transmitted and stored by Google.
+
+To ensure anonymity, Google makes your information anonymous by truncating the IP address before storing it. It also does not associate your truncated IP address with any other data held by Google, nor may it send the information collected by Google Analytics to third parties except where legally required to do so, in accordance with Google Analytics' terms and conditions of service.
+
+If you wish to refuse permission for the statistical processing of data or information with Google Analytics, please click here.
+
+We remind you that you must perform this action each time you change your browser or its settings, or if cookies are deleted, since the denial indicator is saved in a cookie.
+
+<br>
+
+## Data protection
+
+The users of this portal have all the information related to the treatment of personal data carried out by the _Xunta de Galicia_ at their disposal, including the way in which they can exercise their rights, contact the data protection officers and other aspects according to the terms required by the European Regulation for personal data protection, on the following link: information on personal data protection.
+
+<br>
+
+## Use of languages
+
+Article 13 of Law 39/2015, of 1 October, on the Common Administrative Procedure of Public Administrations, guarantees the exercise of the linguistic rights recognised in the legal system and, in particular, those referring to the use of Galician in the relations of citizens with the Galician Public Administration. The Form will provide access to its contents and services in Galician and Spanish for this.
+
+<br>
+
+## Applicable law and jurisdiction
+
+Spanish legislation will be applied to any litigious issue or one that concerns the Form, and the Courts and Tribunals of the city of Santiago de Compostela will be competent for the resolution of all conflicts arising from or related to the use of this Form.
