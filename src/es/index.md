@@ -1,7 +1,7 @@
 ---
 order: 1
 layout: home
-title: es Ribeira Sacra  Paisaje del Agua
+title: Ribeira Sacra. Paisaje del Agua
 metadescripcion: Candidatura de Ribeira Sacra Paisaje del Agua a la Lista del Patrimonio Mundial
 subtitulo: 'Candidatura a la Lista del Patrimonio Mundial'
 tit: 'Ribeira Sacra'
@@ -43,7 +43,7 @@ bien:
     link: https://www.xunta.gal/dog/Publicados/2018/20181231/AnuncioG0535-281218-0001_es.html
 water:
     imagen: /declaracion_es.webp
-    tit: Waterscape
+    tit: Waterscapes
     cuerpo: El encuentro internacional de expertos celebrado entre el 6 y 8 de noviembre de 2023 en Ribeira Sacra concluyó con la declaración sobre los paisajes culturales del agua.
     link: https://waterscapesribeirasacra.com/
     link_2: /pdf/Declaracion_WateRScapes_es.pdf

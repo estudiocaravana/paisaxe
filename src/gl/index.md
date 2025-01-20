@@ -1,69 +1,97 @@
 ---
 order: 1
 layout: home
-title: es Ribeira Sacra  Paisaje del Agua
-metadescripcion: Candidatura de Ribeira Sacra Paisaje del Agua a la Lista del Patrimonio Mundial
-subtitulo: 'Candidatura a la Lista del Patrimonio Mundial'
+title: Ribeira Sacra. Paisaxe da Agua
+metadescripcion: Candidatura da Ribeira Sacra Paisaxe da Auga á Listaxe do Patrimonio Mundial
+subtitulo: 'Candidatura á Listaxe do Patrimonio Mundial'
 tit: 'Ribeira Sacra'
-ulo: 'Paisaje del Agua'
-descripcion: Ribeira Sacra es la historia viva de la relación entre el agua y el ser humano que gracias a su ingenio ha esculpido un paisaje de agua lo largo de más de <b class="text-sky-500">1.500 años de ocupación continuada.</b>
+ulo: 'Paisaxe da Agua'
+descripcion: Ribeira Sacra é a historia viva da relación entre a auga e o ser humano que gracias ao seu enxeño esculpiu unha paisaxe de auga ó longo de máis de <b class="text-sky-500">1.500 anos de ocupación continuada.</b>
 localizacion: Localización
-loca: 'Provincias de Lugo y Ourense.<br />Galicia, España'
+loca: 'Provincias de Lugo e Ourense.<br />Galicia, España'
 mapa: Mapa
-delimitacion: 'Bien propuesto'
+delimitacion: 'Ben proposto'
 delimitacion_dato: '16.471 ha'
-delimitacion_cuerpo: 'Acoge los cañones fluviales de los ríos Miño y Sil entre Santa María de Pesqueiras, al oeste, y San Clodio de Ribas de Sil al este.'
-amor: 'Zona de amortiguamiento'
+delimitacion_cuerpo: 'Acolle en consecuencia os canóns fluviais destes ríos entre Santa María de Pesqueiras, ao oeste, e San Clodio de Ribas de Sil, ao leste.'
+amor: 'Zona de amortecemento'
 amor_dato: '31.979 ha'
-amor_cuerpo: 'Trazado de las 72 parroquias que representan las unidades territoriales comunitarias configuradas desde el medievo.'
-limite: 'Límite del bien'
-limite_cuerpo: '<p>El límite del bien discurre por los bordes superiores de los valles encajados de los ríos Sil y Miño en los tramos próximos a la unión de ambos. Su límite se define sobre el terreno en lo que se denomina localmente como <strong>bocarribeira</strong>, que es el lugar donde cambia abruptamente la pendiente, pasando de valores superiores al 30% (ribeiras), a valores inferiores al 10% (chairas).'
+amor_cuerpo: 'Trazado das 72 parroquias que representan as unidades territoriais comunitarias configuradas desde o medievo.'
+limite: 'Límite do ben'
+limite_cuerpo: '<p>O límite do ben discorre polos bordes superiores dos vales encaixados dos ríos Sil e Miño nos
+tramos próximos á unión de ambos. O seu límite defínese sobre o terreo no que se denomina
+localmente como <strong>bocarribeira</strong>, que é o lugar onde cambia abruptamente a pendente, pasando
+de valores superiores ao 30% (ribeiras), a valores inferiores ao 10% (chairas).</p>'
 crit: Criterio
-criterio: 'Según los criterios de UNESCO, se presenta bajo el criterio (v)'
-criterio_cuerpo: '<p>Ser un ejemplo destacado de formas tradicionales de asentamiento humano o de utilización de la tierra o del mar, representativas de una cultura (o de varias culturas), o de interacción del hombre con el entorno, sobre todo cuando éste se ha vuelto vulnerable debido al impacto provocado por cambios irreversibles.</p>'
+criterio: 'Segundo os criterios da UNESCO, preséntase baixo o criterio (v)'
+criterio_cuerpo: '<p>Ser un exemplo destacado de formas tradicionais de asentamento humano ou de utilización da
+terra ou do mar, representativas dunha cultura (ou de varias culturas), ou de interacción do
+home coa contorna, sobre todo cando este se volveu vulnerable debido ao impacto provocado
+polos cambios irreversibles.</p>'
 valor: 'Valor Universal Excepcional (VUE)'
-valor_entrada: '<p>El bien propuesto muestra un excepcional paisaje cultural del agua encajado entre los espectaculares cañones fluviales situados en la confluencia de los ríos Sil y Miño (Galicia, España), en la fachada atlántica de la Iberia húmeda, conocido popularmente como Ribeira Sacra.</p>'
-valor_cuerpo: '<p>Constituye un paisaje épico articulado por la cultura y el patrimonio del agua, sustentado en sus innumerables arroyos, regatos y ríos que definen su identidad, belleza, composición y singulares patrones de asentamiento. Ilustra la génesis y evolución de un territorio esculpido por el agua y paradigma de una cultura hídrica, en el que se reconocen vívidamente las huellas que han marcado su construcción a lo largo de más de mil quinientos años de ocupación continuada, y que tiene su génesis en la antigua tradición eremítica y monástica arraigada en este espacio.</p>
-
-<p>La cultura del agua en estos lugares se refleja en un patrimonio hídrico excepcional que incluye sitios arqueológicos, los ingenios asociados al agua de todas las épocas, incluyendo un importante patrimonio industrial hidráulico, los singulares sistemas de drenaje de los socalcos o terrazas de cultivo, además de otras múltiples manifestaciones vernáculas en forma de fuentes sacralizadas y minas, canales, azudes, pasos y puentes, rutas fluviales y otras obras singulares asociadas con el agua.</p>
-
-<p>El poder del agua constituye una parte fundamental del relato del paisaje cultural. En el ámbito del bien propuesto se despliega un excepcional catálogo de elementos patrimoniales de aprovechamientos hidráulicos que aportan el testimonio continuo de la autosuficiencia energética de cada época, incluyendo desde molinos de agua tradicionales de diferentes siglos, cuyos obras perduran en el ámbito del bien en número y densidad excepcionales, siguiendo con las minicentrales o fábricas de luz que emergen a finales del siglo XIX, hasta llegar a los embalses hidroeléctricos de mediados del siglo XX.</p>
-
-<p>En definitiva, Ribeira Sacra presenta un paisaje cultural en el que se puede leer la historia de la maravillosa relación entre el agua, el ser humano y su ingenio, no solo para asegurar su supervivencia y bienestar, sino también para aprovechar al máximo todos sus posibles usos.</p>'
+valor_entrada: '<p>O ben proposto amosa unha excepcional paisaxe cultural da auga encaixada entre os
+espectaculares canóns fluviais situados na confluencia dos ríos Sil e Miño (Galicia, España), na
+fachada atlántica da Iberia húmida, coñecida popularmente como Ribeira Sacra.</p>'
+valor_cuerpo: '<p>Constitúe unha paisaxe épica articulada pola cultura e o patrimonio da auga, sustentada nos
+seus innumerables regueiros, regatos e ríos que definen a súa identidade, beleza, composición
+e singulares patróns de asentamento. Ilustra a xénese e evolución dun territorio esculpido pola
+auga e paradigma dunha cultura hídrica, na que se recoñecen vividamente as pegadas que
+marcaron a súa construción ao longo de máis de mil cincocentos anos de ocupación
+continuada, e que ten a súa xénese na antiga tradición eremítica e monástica arraigada neste
+espazo.</p>
+<p>A cultura da auga nestes lugares se reflexa nun patrimonio hídrico excepcional que inclúe sitios
+arqueolóxicos, os enxeños asociados á auga de tódalas épocas, incluíndo un importante
+patrimonio industrial hidráulico, os singulares sistemas de drenaxe dos socalcos ou terrazas de
+cultivo, ademais doutras múltiples manifestacións vernáculas en forma de fontes sacralizadas
+e minas, canles, represas, pasos e pontes, rutas fluviais e outras obras singulares asociadas coa
+auga.</p>
+<p>O poder da auga constitúe unha parte fundamental do relato da paisaxe cultural. No ámbito
+do ben proposto desprégase un excepcional catálogo de elementos patrimoniais de
+aproveitamentos hidráulicos que aportan a testemuña continua da autosuficiencia enerxética
+de cada época, incluíndo desde muíños de auga tradicionais de diferentes séculos, cuxas obras
+perduran no ámbito do ben en número e densidade excepcionais, seguindo coas minicentrais
+ou fábricas da luz que emerxen a finais do século XIX, ata chegar aos embalses hidroeléctricos
+de mediados do século XX.</p>
+<p>En definitiva, Ribeira Sacra presenta unha paisaxe cultural na que se pode ler a historia da
+marabillosa relación entre a auga, o ser humano e o seu enxeño, non só para asegurar a súa
+supervivencia e benestar, senón tamén para aproveitar ao máximo todos os seus posibles
+usos.</p>'
 
 formulario:
     imagen: /portada.webp
-    tit: Formulario de inscripción 
-    cuerpo: Este documento presenta la candidatura de la Ribeira Sacra Paisaje del agua a la Lista de Patrimonio Mundial. 
+    tit: Formulario de inscrición
+    cuerpo: Este documento presenta a candidatura da Ribeira Sacra Paisaxe da Auga á Listaxe do Patrimonio Mundial. 
     link: link
 bien:
     imagen: /decreto.webp
-    tit: Bien de Interés Cultural (BIC)
-    cuerpo: Ribeira Sacra cuenta desde 2018 con una declaración de bien de interés cultural dentro de la categoría de paisaje cultural. 
-    link: https://www.xunta.gal/dog/Publicados/2018/20181231/AnuncioG0535-281218-0001_es.html
+    tit: Ben de Interese Cultural (BIC)
+    cuerpo: Ribeira Sacra conta desde 2018 cunha declaración de ben de interese cultural dentro da categoría de paisaxe cultural.
+    link: https://www.xunta.gal/dog/Publicados/2018/20181231/AnuncioG0535-281218-0001_gl.html
 water:
-    imagen: /declaracion_es.webp
-    tit: Waterscape
-    cuerpo: El encuentro internacional de expertos celebrado entre el 6 y 8 de noviembre de 2023 en Ribeira Sacra concluyó con la declaración sobre los paisajes culturales del agua.
+    imagen: /declaracion_gl.webp
+    tit: Waterscapes
+    cuerpo: O encontro internacional de expertos celebrado entre o 6 e 8 de novembro de 2023 na Ribeira Sacra concluíu coa declaración sobre as paisaxes culturais da auga.
     link: https://waterscapesribeirasacra.com/
-    link_2: /pdf/Declaracion_WateRScapes_es.pdf
+    link_2: /pdf/Declaracion_WateRScapes_gl.pdf
 
-fontes: "<p><b>FONTES</b>, el título del encuentro internacional celebrado entre el 27 y 29 de octubre de 2024 en Ribeira Sacra, hace alusión a las más de 900 fuentes de agua que manan a lo largo de todo el territorio de Ribeira Sacra y que contribuyen a modelar este extraordinario paisaje, y también a las fuentes del conocimiento, un factor imprescindible a la hora de tratar con un bien patrimonial.</p>"
+fontes: "<p><b>FONTES</b>, o título do encontro internacional celebrado entre o 27 e 29 de outubro de 2024 na
+Ribeira Sacra, fai alusión ás máis de 900 fontes de auga que manan ao longo de todo o
+territorio da Ribeira Sacra e que contribúen a modelar esta extraordinaria paisaxe, e tamén ás
+fontes do coñecemento, un factor imprescindible á hora de tratar cun ben patrimonial.</p>"
 fontes_link: "https://fontesribeirasacra.com/"
 atributos: Atributos
 ---
 
-**Se alcanzaron las siguientes conclusiones:**
+**Acadáronse as seguintes conclusións:**
 
-1. El cambio de paradigma en el concepto de patrimonio cultural, pasando de estar exclusivamente ligado a lo material a entenderse hoy como un elemento vivo, dinámico y en constante interacción con lo humano. Se incorporan nuevas tipologías, que reflejan los nuevos elementos a los que la sociedad atribuye valor y se diluye la frontera entre lo natural, lo cultural y lo inmaterial. Los paisajes culturales tienen la capacidad de integrar y articular todos estos elementos.
-2. La necesidad de encontrar soluciones apropiadas y sostenibles para salvaguardar los paisajes culturales en atención a sus especificidades, sobre la base de un conocimiento que incorpore la interdisciplinariedad y la transdisciplinariedad. Conocer los diferentes estratos que conforman el paisaje, reflexionar sobre los objetivos de la conservación y, especialmente, sobre las necesidades de las comunidades locales.
-3. Las candidaturas a Patrimonio Mundial y su necesario vínculo con la Academia y otros centros de investigación, debido al indispensable papel del conocimiento científico en la definición de las bases de una propuesta de inscripción a la Lista del Patrimonio Mundial.
-4. La complejidad del proceso para lograr la inclusión en la Lista del Patrimonio Mundial, tanto en la definición e identificación de los valores, significado y carácter del bien como desde el punto de vista de los requisitos, que deben cumplir con la excepcionalidad, la autenticidad, la integridad y la existencia de un sistema de gestión y de un plan de gestión adecuados. En contrapartida, los logros que el propio proceso genera, favoreciendo el intercambio de experiencias, el desarrollo de estrategias conjuntas, nuevas herramientas y el fortalecimiento del sentido de orgullo y pertenencia.
-5. La creciente importancia que ha adquirido el desarrollo de planes de gestión en el manejo de los sitios del Patrimonio Mundial. El conocimiento de los elementos que estructuran el paisaje, así como la implicación de las administraciones y de las comunidades locales, son clave para impulsar iniciativas que permitan que las generaciones presentes y futuras continúen habitando el territorio, desde la óptica del desarrollo sostenible.
-6. La población local debe estar en el centro del diseño, implementación y seguimiento de las estrategias de planificación y gestión del patrimonio cultural. El conocimiento y la participación de quienes viven y conviven con el paisaje cultural es indispensable para la formulación de políticas públicas eficientes.
-7. Los beneficios de las nuevas tecnologías como herramienta para la investigación, documentación y conservación del patrimonio cultural; pero también para el diseño de estrategias de divulgación y comunicación, adaptadas a las necesidades de los diferentes públicos. Asimismo, la oportunidad que suponen las redes sociales para la sensibilización de las nuevas generaciones, a través de la creación de contenidos de calidad, alineados con los objetivos de desarrollo sostenible.
-8. Los beneficios que suponen la creación de redes y el intercambio de experiencias con otros paisajes culturales y sitios del Patrimonio Mundial para la identificación de necesidades compartidas, el desarrollo de proyectos conjuntos y el diseño de acciones de difusión, comunicación y promoción.
-9. La importancia de que las y los guías de turismo locales sean partícipes del proceso, formándolos y poniendo a su disposición todo el conocimiento disponible sobre el patrimonio cultural, dada su importante labor en la comprensión por parte de los visitantes del significado del lugar que visita, favoreciendo una actitud de respeto, cuidado y valorización.
-10. El necesario manejo de flujos de visitantes mediante la gestión de la movilidad, de la capacidad de carga y de la capacidad de acogida, con el objetivo de evitar los efectos negativos que el turismo puede tener sobre la autenticidad y la conservación de los paisajes culturales.
-11. La complejidad administrativa de las candidaturas de los paisajes culturales, que supone un reto para los órganos competentes a distintas escalas (local, regional y nacional) y en diferentes ámbitos (cultura, agricultura, turismo, movilidad, medio ambiente, etc.)
-12. El valor de los paisajes culturales como recursos frente a algunos de los retos del futuro, como la lucha contra el cambio climático, el despoblamiento de zonas rurales y el desarrollo sostenible.
+1. O cambio de paradigma no concepto de patrimonio cultural, pasando de estar exclusivamente ligado ao material a entenderse hoxe como un elemento vivo, dinámico e en constante interacción co humano. Incorpóranse novas tipoloxías, que reflicten os novos elementos aos que a sociedade atribúe valor e dilúese a fronteira entre o natural, o cultural e o inmaterial. As paisaxes culturais teñen a capacidade de integrar e articular todos estes elementos.
+2. A necesidade de atopar solucións apropiadas e sostibles para salvagardar as paisaxes culturais en atención ás súas especificidades, sobre a base dun coñecemento que incorpore a interdisciplinariedade e a transdisciplinariedade. Coñecer os diferentes estratos que conforman a paisaxe, reflexionar sobre os obxectivos da conservación e, especialmente, sobre as necesidades das comunidades locais.
+3. As candidaturas a Patrimonio Mundial e o seu necesario vínculo coa Academia e outros centros de investigación, debido ao indispensable papel do coñecemento científico na definición das bases dunha proposta de inscrición á Lista do Patrimonio Mundial.
+4. A complexidade do proceso para lograr a inclusión na Lista do Patrimonio Mundial, tanto na definición e identificación dos valores, significado e carácter do ben como desde o punto de vista dos requisitos, que deben cumprir coa excepcionalidade, a autenticidade, a integridade e a existencia dun sistema de xestión e dun plan de xestión adecuados. En contrapartida, os logros que o propio proceso xera, favorecendo o intercambio de experiencias, o desenvolvemento de estratexias conxuntas, novas ferramentas e o fortalecemento do sentido de orgullo e pertenza.
+5. A crecente importancia que adquiriu o desenvolvemento de plans de xestión no manexo dos sitios do Patrimonio Mundial. O coñecemento dos elementos que estruturan a paisaxe, así como a implicación das administracións e das comunidades locais, son clave para impulsar iniciativas que permitan que as xeracións presentes e futuras continúen habitando o territorio, desde a óptica do desenvolvemento sostible.
+6. A poboación local debe estar no centro do deseño, implementación e seguimento das estratexias de planificación e xestión do patrimonio cultural. O coñecemento e a participación de quen vive e convive coa paisaxe cultural é indispensable para a formulación de políticas públicas eficientes.
+7. Os beneficios das novas tecnoloxías como ferramenta para a investigación, documentación e conservación do patrimonio cultural; pero tamén para o deseño de estratexias de divulgación e comunicación, adaptadas ás necesidades dos diferentes públicos. Así mesmo, a oportunidade que supoñen as redes sociais para a sensibilización das novas xeracións, a través da creación de contidos de calidade, aliñados cos obxectivos de desenvolvemento sostible.
+8. Os beneficios que supoñen a creación de redes e o intercambio de experiencias con outras paisaxes culturais e sitios do Patrimonio Mundial para a identificación de necesidades compartidas, o desenvolvemento de proxectos conxuntos e o deseño de accións de difusión, comunicación e promoción.
+9. A importancia de que as e os guías de turismo locais sexan partícipes do proceso, formándoos e poñendo á súa disposición todo o coñecemento dispoñible sobre o patrimonio cultural, dado o seu importante labor na comprensión por parte dos visitantes do significado do lugar que visita, favorecendo unha actitude de respecto, coidado e valorización.
+10. O necesario manexo de fluxos de visitantes mediante a xestión da mobilidade, da capacidade de carga e da capacidade de acollida, co obxectivo de evitar os efectos negativos que o turismo pode ter sobre a autenticidade e a conservación das paisaxes culturais.
+11. A complexidade administrativa das candidaturas das paisaxes culturais, que supón un reto para os órganos competentes a distintas escalas (local, rexional e nacional) e en diferentes ámbitos (cultura, agricultura, turismo, mobilidade, medio ambiente etc.)
+12. O valor das paisaxes culturais como recursos fronte a algúns dos retos de futuro, como a loita contra o cambio climático, o despoboamento de zonas rurais e o desenvolvemento sostible.
