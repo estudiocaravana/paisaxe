@@ -12,7 +12,7 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/tailwindcss.css");
   eleventyConfig.addPassthroughCopy("src/assets/img");
   eleventyConfig.addPassthroughCopy({
-    "node_modules/alpinejs/dist/cdn.js": "/assets/alpine.js",
+    "node_modules/alpinejs/dist/cdn.min.js": "/assets/alpine.js",
   });
   eleventyConfig.addPassthroughCopy({
     "node_modules/@alpinejs/collapse/dist/cdn.js": "/assets/collapse.js",

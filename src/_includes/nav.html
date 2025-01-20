@@ -44,7 +44,7 @@
           <path d="M8 6h1"/>
         </svg>
       </button>
-      <div class="absolute top-6 left-1/2 -translate-x-1/2 overflow-hidden w-full max-w-screen-2xl h-full rounded-xl z-40" x-show="menu" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-transition:enter="transition ease-out duration-300" x-transition:leave="transition ease-in duration-300">
+      <div class="absolute top-6 left-1/2 -translate-x-1/2 overflow-hidden w-full max-w-screen-2xl h-full rounded-xl z-40" x-cloak x-show="menu" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-transition:enter="transition ease-out duration-300" x-transition:leave="transition ease-in duration-300">
         <div class="absolute right-0 top-0 bottom-0 bg-sky-500 text-sky-50 max-w-xl h-fit px-12 pb-20 rounded-bl-xl" @click.outside="menu = false" x-show="menu" x-transition:enter-start="translate-x-24" x-transition:enter-end="translate-x-0" x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-24" x-transition:enter="transition ease-out duration-300" x-transition:leave="transition ease-in duration-300">
           <div class="pt-12">
             <button class="ml-auto block text-white hover:text-sky-200" @click="menu = false">
