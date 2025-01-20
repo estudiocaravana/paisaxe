@@ -1,5 +1,5 @@
 <div class="caixa pt-60 pb-36">
-    <h2 class="text-3xl text-center">Atributos</h2>
+    <h2 class="text-3xl text-center">{{ atributos }}</h2>
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-20">
         {% set atributo = collections["atributo_" + locale] %}
         {%- for atributo in atributo -%}

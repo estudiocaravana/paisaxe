@@ -7,7 +7,9 @@ subtitulo: 'Candidacy of Ribeira Sacra Waterscape to the World Heritage List'
 tit: 'Ribeira Sacra'
 ulo: 'Waterscape'
 descripcion: Ribeira Sacra is the living story of the relationship between water and mankind, whose ingenuity has sculpted a waterscape over <b class="text-sky-500">more than 1,500 years of continuous occupation</b>
+localizacion: Location
 loca: 'Provinces of Lugo Lugo and Ourense.<br />Galicia, Spain'
+mapa: Map
 delimitacion: 'Property’s boundary'
 delimitacion_dato: '16.471 ha'
 delimitacion_cuerpo: 'The river canyons of these rivers between Santa María de Pesqueiras, to the
@@ -17,6 +19,7 @@ amor_dato: '31.979 ha'
 amor_cuerpo: 'The layout of the 72 parishes configured since the Middle Ages and that still survive as identity references in the area.'
 limite: 'The property’s boundary'
 limite_cuerpo: '<p>Runs along the upper edges of the valleys of the rivers Sil and Miño in the sections close to the junction of the two rivers. Its boundary is defined on the ground in what is locally known as <b>bocarribeira</b>, which is the place where the slope changes abruptly, going from values above 30% (ribeiras) to values below 10% (chairas)'
+crit: Criteria
 criterio: 'According to UNESCO criteria, it is presented under criterion (v)'
 criterio_cuerpo: '<p>To be a prominent example of traditional forms of human settlement or use of land or sea, representative of a culture (or several cultures), or of man&#39;s interaction with the environment, especially when the environment has become vulnerable due to the impact of irreversible changes.</p>'
 valor: 'Outstanding Universal Value (OUV)'
@@ -56,6 +59,7 @@ water:
 
 fontes: "<p><b>FONTES</b>, the title of the international meeting held between 27 and 29 October 2024, refers to the more than 900 water springs that flow throughout the Ribeira Sacra territory and that contribute to shaping this extraordinary landscape, and also to the sources of knowledge, an essential factor when dealing with a heritage property.</p>"
 fontes_link: "https://fontesribeirasacra.com/"
+atributos: Attributes
 ---
 
 **The following conclusions were reached:**

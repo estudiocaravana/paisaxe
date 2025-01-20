@@ -35,6 +35,11 @@ module.exports = async function (eleventyConfig) {
       return a.data.order - b.data.order;
     });
   });
+  eleventyConfig.addCollection("atributo_gl", function (collection) {
+    return collection.getFilteredByGlob("./src/gl/atributos/*.md").sort(function (a, b) {
+      return a.data.order - b.data.order;
+    });
+  });
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
   return {
     dir: {
