@@ -54,62 +54,25 @@ water:
     imagen: /declaracion_en.webp
     tit: Waterscapes
     cuerpo: The international meeting of experts held on 6-8 November 2023 in Ribeira Sacra concluded with the declaration on Cultural Waterscapes,
-    link: https://waterscapesribeirasacra.com/
-    link_2: /pdf/Declaracion_WateRScapes_en.pdf
+    link: https://waterscapesribeirasacra.com/?lang=en
+    link_2: /pdf/Declaration_WateRScapes_en.pdf
 
 fontes: "<p><b>FONTES</b>, the title of the international meeting held between 27 and 29 October 2024, refers to the more than 900 water springs that flow throughout the Ribeira Sacra territory and that contribute to shaping this extraordinary landscape, and also to the sources of knowledge, an essential factor when dealing with a heritage property.</p>"
-fontes_link: "https://fontesribeirasacra.com/"
+fontes_link: "https://fontesribeirasacra.com/?lang=en"
 atributos: Attributes
 ---
 
 **The following conclusions were reached:**
 
-1. The paradigm shift in the concept of cultural heritage, goes from being exclusively linked to
-   the material, to being understood today as a living, dynamic element in constant interaction
-   with that which is human. New typologies are incorporated, reflecting the new elements to
-   which society attributes value, and the boundary between what is natural, cultural and
-   intangible is blurred. Cultural landscapes have the capacity to integrate and bring together all
-   these elements.
-2. The need to find appropriate, sustainable solutions to safeguard cultural landscapes in view
-   of their specificities, based on knowledge that incorporates interdisciplinarity and
-   transdisciplinarity. To understand the different strata that make up the landscape, to reflect on
-   conservation goals and, especially, on the needs of local communities.
-3. World Heritage candidacies and their necessary link with Academia and other research
-   centres, due to the indispensable role of scientific knowledge in defining the basis of a
-   nomination for registration on the World Heritage List.
-4. The complexity of the process to achieve inclusion on the World Heritage List, both in
-   defining and identifying the values, significance and character of the property as well as from
-   the point of view of the requirements, which must comply with exceptionality, authenticity,
-   integrity and the existence of an appropriate management system and management plan. On
-   the other hand, the achievements that the process itself generates, favouring the exchange of
-   experiences, the development of joint strategies, new tools and strengthening of the sense of
-   pride and belonging.
-5. The growing importance of developing management plans in the management of World
-   Heritage sites. Knowledge of the elements that structure the landscape, as well as the
-   involvement of administrations and local communities, are key to promoting initiatives that
-   allow present and future generations to continue to inhabit the territory, from a sustainable
-   development perspective.
-6. Local people must be at the centre of the design, implementation and monitoring of cultural
-   heritage planning and management strategies. The knowledge and participation of those who
-   live and coexist with the cultural landscape is indispensable in order to draw up efficient public
-   policies.
-7. The benefits of new technologies as a tool for research, documentation and conservation of
-   cultural heritage; but also for the design of dissemination and communication strategies,
-   adapted to the needs of different audiences. Likewise, the opportunity that social networks
-   represent for raising awareness among the new generations, through the creation of quality
-   content, aligned with sustainable development goals.
-8. The benefits of networking and exchanging experiences with other cultural landscapes and
-   World Heritage sites for the identification of shared needs, the development of joint projects
-   and the design of dissemination, communication and promotion actions.
-9. The importance of involving local tourist guides in the process, training them and providing
-   them with all the knowledge available on cultural heritage, given their important role in the
-   visitors&#39; understanding of the meaning of the place they visit, favouring an attitude of respect,
-   care and appreciation.
-10. The necessary management of visitor flows through the management of mobility, carrying
-    capacity and reception capacity, in order to avoid the negative effects that tourism can have
-    on the authenticity and conservation of cultural landscapes.
-11. The administrative complexity of cultural landscape nominations, which is a challenge for
-    the competent bodies at different scales (local, regional and national) and in different fields
-    (culture, agriculture, tourism, mobility, environment, etc.)
-12. The value of cultural landscapes as resources in the face of some future challenges, such as
-    the fight against climate change, the depopulation of rural areas and sustainable development.
+1. The paradigm shift in the concept of cultural heritage, goes from being exclusively linked to the material, to being understood today as a living, dynamic element in constant interaction with that which is human. New typologies are incorporated, reflecting the new elements to which society attributes value, and the boundary between what is natural, cultural and intangible is blurred. Cultural landscapes have the capacity to integrate and bring together  all these elements.
+2. The need to find appropriate, sustainable solutions to safeguard cultural landscapes in view of their specificities, based on knowledge that incorporates interdisciplinarity and transdisciplinarity. To understand the different strata that make up the landscape, to  reflect on conservation goals and, especially, on the needs of local communities.
+3. World Heritage candidacies and their necessary link with Academia and other research centres, due to the indispensable role of scientific knowledge in defining the basis of a nomination for registration on the World Heritage List.
+4. The complexity of the process to achieve inclusion on the World Heritage List, both in defining and identifying the values, significance and character of the property as well as from the point of view of the requirements, which must comply with exceptionality, authenticity integrity and the existence of an appropriate management system and management plan. On the other hand, the achievements that the process itself generates, favouring the exchange of experiences, the development of joint strategies, new tools and strengthening of the sense of pride and belonging.
+5. The growing importance of developing management plans in the management of World Heritage sites. Knowledge of the elements that structure the landscape, as well as the involvement of administrations and local communities, are key to promoting initiatives that allow present and future generations to continue to inhabit the territory, from a sustainable development perspective.
+6. Local people must be at the centre of the design, implementation and monitoring of cultural heritage planning and management strategies. The knowledge and participation of those who live and coexist with the cultural landscape is indispensable in order to draw up efficient public policies.
+7. The benefits of new technologies as a tool for research, documentation and conservation of cultural heritage; but also for the design of dissemination and communication strategies, adapted to the needs of different audiences. Likewise, the opportunity that social networks represent for raising awareness among the new generations, through the creation of quality content, aligned with sustainable development goals.
+8. The benefits of networking and exchanging experiences with other cultural landscapes and World Heritage sites for the identification of shared needs, the development of joint projects and the design of dissemination, communication and promotion actions.
+9. The importance of involving local tourist guides in the process, training them and providing them with all the knowledge available on cultural heritage, given their important role in the visitors&#39; understanding of the meaning of the place they visit, favouring an attitude of respect, care and appreciation.
+10. The necessary management of visitor flows through the management of mobility, carrying capacity and reception capacity, in order to avoid the negative effects that tourism can have on the authenticity and conservation of cultural landscapes.
+11. The administrative complexity of cultural landscape nominations, which is a challenge for the competent bodies at different scales (local, regional and national) and in different fields (culture, agriculture, tourism, mobility, environment, etc.)
+12. The value of cultural landscapes as resources in the face of some future challenges, such as the fight against climate change, the depopulation of rural areas and sustainable development.

@@ -70,14 +70,14 @@ water:
     imagen: /declaracion_gl.webp
     tit: Waterscapes
     cuerpo: O encontro internacional de expertos celebrado entre o 6 e 8 de novembro de 2023 na Ribeira Sacra concluíu coa declaración sobre as paisaxes culturais da auga.
-    link: https://waterscapesribeirasacra.com/
+    link: https://waterscapesribeirasacra.com/?lang=gl
     link_2: /pdf/Declaracion_WateRScapes_gl.pdf
 
 fontes: "<p><b>FONTES</b>, o título do encontro internacional celebrado entre o 27 e 29 de outubro de 2024 na
 Ribeira Sacra, fai alusión ás máis de 900 fontes de auga que manan ao longo de todo o
 territorio da Ribeira Sacra e que contribúen a modelar esta extraordinaria paisaxe, e tamén ás
 fontes do coñecemento, un factor imprescindible á hora de tratar cun ben patrimonial.</p>"
-fontes_link: "https://fontesribeirasacra.com/"
+fontes_link: "https://fontesribeirasacra.com/?lang=gl"
 atributos: Atributos
 ---
 
