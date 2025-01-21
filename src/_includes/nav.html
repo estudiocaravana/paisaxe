@@ -5,10 +5,10 @@
     <div class="flex-1">
       <a href="/{{ locale }}" class="text-sky-500 hover:text-sky-400">
         <div class="flex items-center">
-          <div class="hidden lg:block w-20">
+          <div class="w-16 sm:w-20">
             {% include 'svg/logo.svg' %}
           </div>
-          <div class="text-base font-semibold ml-4">
+          <div class="text-sm sm:text-base font-semibold ml-4">
             Ribeira Sacra<br/>
             <span class="text-sky-900">{{ site[locale].leyenda }}</span>
           </div>
@@ -32,7 +32,7 @@
     <!-- Menu -->
     <div class="lg:flex-1" x-data="{menu : false}">
       <button class="ml-auto block text-sky-500 hover:text-sky-700" @click="menu = true">
-        <svg class="fill-none stroke-current stroke-2 size-14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <svg class="fill-none stroke-current stroke-2 size-12 sm:size-14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
           <path d="M13 12h8"/>
           <path d="M13 18h8"/>
           <path d="M13 6h8"/>
