@@ -18,7 +18,7 @@
         <div class="flex flex-col gap-6 sm:gap-12 lg:gap-20">
             {%- for item in galeria -%}
                 <div>
-                    <img src="/assets/img/atributos/{{ item.img }}" alt="{{ item.alt }}" class="rounded-xl mx-auto"></div>
+                    <img eleventy:widths="auto,400,800" loading="lazy" src="/assets/img/atributos/{{ item.img }}" alt="{{ item.alt }}" class="rounded-xl mx-auto"></div>
                 {%- endfor -%}
             </div>
         </div>
@@ -31,7 +31,7 @@
             <div class="flex flex-col gap-20">
                 {%- for item in graficos -%}
                     <div class="rounded-xl overflow-hidden shadow-lg shadow-sky-800/20">
-                        <img src="/assets/img/atributos/{{ item.img }}" alt="{{ item.alt }}"></div>
+                        <img eleventy:widths="auto,400,800" loading="lazy" src="/assets/img/atributos/{{ item.img }}" alt="{{ item.alt }}"></div>
                     {%- endfor -%}
                 </div>
             </div>
