@@ -1,6 +1,6 @@
 module.exports = {
   es: {
-    leyenda: "Paisaje del auga",
+    leyenda: "Paisaje del Auga",
     legales: "Textos legales",
     vermas: "Ver más",
     inicio: "Inicio",
@@ -12,7 +12,7 @@ module.exports = {
     inicio: "Home",
   },
   gl: {
-    leyenda: "Paisaxe da auga",
+    leyenda: "Paisaxe da Auga",
     legales: "Textos legales",
     vermas: "Ver máis",
     inicio: "Inicio",

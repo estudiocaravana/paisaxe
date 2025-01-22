@@ -12,6 +12,7 @@ localizacion: Localización
 loca: 'Provincias de Lugo y Ourense.<br />Galicia, España'
 mapa: Mapa
 mapa_url: plano.webp
+pdf_url: Limites_bien.pdf
 delimitacion: 'Bien propuesto'
 delimitacion_dato: '16.471 ha'
 delimitacion_cuerpo: 'Acoge los cañones fluviales de los ríos Miño y Sil entre Santa María de Pesqueiras, al oeste, y San Clodio de Ribas de Sil al este.'

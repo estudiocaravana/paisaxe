@@ -1,3 +1,4 @@
+const EleventyPluginRobotsTxt = require("eleventy-plugin-robotstxt");
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 const markdownIt = require("markdown-it");
 
@@ -7,6 +8,10 @@ module.exports = async function (eleventyConfig) {
     breaks: true,
     linkify: true,
   };
+  const eleventyPluginRobotsTxtOptions = {
+    rules: new Map([["*", [{ disallow: "/es/legal/" }, { disallow: "/en/legal/" }, { disallow: "/gl/legal/" }]]]),
+  };
+  eleventyConfig.addPlugin(EleventyPluginRobotsTxt, eleventyPluginRobotsTxtOptions);
   eleventyConfig.setLibrary("md", markdownIt(options));
   // PassThroughCopy
   eleventyConfig.addPassthroughCopy("src/assets/css/tailwindcss.css");

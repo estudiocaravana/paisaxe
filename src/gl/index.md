@@ -12,6 +12,7 @@ localizacion: Localización
 loca: 'Provincias de Lugo e Ourense.<br />Galicia, España'
 mapa: Mapa
 mapa_url: plano.webp
+pdf_url: Limites_bien.pdf
 delimitacion: 'Ben proposto'
 delimitacion_dato: '16.471 ha'
 delimitacion_cuerpo: 'Acolle en consecuencia os canóns fluviais destes ríos entre Santa María de Pesqueiras, ao oeste, e San Clodio de Ribas de Sil, ao leste.'

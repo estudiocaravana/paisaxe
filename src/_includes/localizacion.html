@@ -3,18 +3,6 @@
         <h2>{{ localizacion }}</h2>
         {{loca | safe}}
     </div>
-    <!-- 
-                                                                                                                            <a href="https://maps.app.goo.gl/trAWxzJQNPfdTYFc7" target="_blank" class="mt-12 bg-white text-sky-500 border border-sky-400 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full mx-auto">
-                                                                                                                                <div>
-                                                                                                                                    <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                                                                                                                                        <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
-                                                                                                                                        <path d="m21 3-9 9"/>
-                                                                                                                                        <path d="M15 3h6v6"/>
-                                                                                                                                    </svg>
-                                                                                                                                </div>
-                                                                                                                                <div>Google maps</div>
-                                                                                                                            </a>
-                                                                                                                            -->
 </div>
 <!-- mapas -->
 <div class="caixa pt-6">
@@ -37,9 +25,9 @@
 <!-- Mapa -->
 <div class="caixa">
     <div class="pt-20 relative">
-        <img class="w-full rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/{{ mapa_url }}" alt=""/>
+        <img eleventy:widths="auto,400,800" loading="lazy" class="w-full rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/{{ mapa_url }}" alt=""/>
     </div>
-    <a href="/pdf/PlanoCandidatura.pdf" target="_blank" class="mx-auto mt-12 bg-sky-500 text-sky-50 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full">
+    <a href="/pdf/{{ pdf_url }}" target="_blank" class="mx-auto mt-12 bg-sky-500 text-sky-50 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full">
         <div>
             <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>

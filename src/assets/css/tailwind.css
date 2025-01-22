@@ -55,7 +55,7 @@
     display: none;
   }
   a.boton {
-    @apply mt-9 bg-sky-500 text-sky-50 px-12 h-14 flex gap-3 items-center justify-center w-fit rounded-full;
+    @apply mt-9 mb-3 bg-sky-500 text-sky-50 px-12 h-14 flex gap-3 items-center justify-center w-fit rounded-full;
   }
   a.boton.outline {
     @apply bg-transparent border border-sky-300 text-sky-500;

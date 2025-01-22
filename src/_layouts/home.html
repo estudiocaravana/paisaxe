@@ -1,14 +1,11 @@
 {% extends "./base.html" %}
 {% block content %}
     <div
-        class="caixa pt-20">
-        <!-- -->
-        <div class="w-28 mx-auto pt-12 pb-6 hidden">
-            {% include 'svg/logo.svg' %}
-        </div>
+        class="caixa pt-12 pb-6">
         <!-- Titular -->
         <div class="max-w-2xl mx-auto text-center">
             <div>
+                <div class="mb-6 mx-auto text-sky-500">{{ subtitulo }}</div>
                 <h1 class="text-4xl sm:text-5xl mb-3 font-extrabold">
                     <span class="text-sky-500 block mb-2">{{ tit }}</span>
                     {{ ulo }}
@@ -56,6 +53,7 @@
             </button>
         </div>
     </div>
+    {% include 'matriz_atributos.html' %}
     {% include 'trio_docs.html' %}
     <!-- Fontes -->
     <div class="caixa bg-sky-100" x-data="{ expanded: false }">
@@ -85,5 +83,4 @@
             </button>
         </div>
     </div>
-    {% include 'matriz_atributos.html' %}
 {% endblock %}

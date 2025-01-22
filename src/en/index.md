@@ -12,12 +12,13 @@ localizacion: Location
 loca: 'Provinces of Lugo Lugo and Ourense.<br />Galicia, Spain'
 mapa: Map
 mapa_url: plano_en.webp
+pdf_url: Property_boundaries.pdf
 delimitacion: 'Property’s boundary'
-delimitacion_dato: '16.471 ha'
+delimitacion_dato: '16,471 ha'
 delimitacion_cuerpo: 'The river canyons of these rivers between Santa María de Pesqueiras, to the
 west, and San Clodio de Ribas de Sil, to the east.'
 amor: 'Buffer zone'
-amor_dato: '31.979 ha'
+amor_dato: '31,979 ha'
 amor_cuerpo: 'The layout of the 72 parishes configured since the Middle Ages and that still survive as identity references in the area.'
 limite: 'The property’s boundary'
 limite_cuerpo: '<p>Runs along the upper edges of the valleys of the rivers Sil and Miño in the sections close to the junction of the two rivers. Its boundary is defined on the ground in what is locally known as <b>bocarribeira</b>, which is the place where the slope changes abruptly, going from values above 30% (ribeiras) to values below 10% (chairas)'

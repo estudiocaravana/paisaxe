@@ -44,7 +44,8 @@
           <path d="M8 6h1"/>
         </svg>
       </button>
-      <div class="absolute top-6 left-1/2 -translate-x-1/2 overflow-hidden w-full max-w-screen-2xl h-full rounded-xl z-40" x-cloak x-show="menu" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-transition:enter="transition ease-out duration-300" x-transition:leave="transition ease-in duration-300">
+      <!-- side -->
+      <div class="absolute top-0 2xl:top-6 left-1/2 right-0 overflow-hidden -translate-x-1/2 w-full h-[1000px] max-w-screen-2xl rounded-xl z-40" x-cloak x-show="menu" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-transition:enter="transition ease-out duration-300" x-transition:leave="transition ease-in duration-300">
         <div class="absolute right-0 top-0 bottom-0 bg-sky-500 text-sky-50 max-w-xl h-fit px-12 pb-20 rounded-bl-xl" @click.outside="menu = false" x-show="menu" x-transition:enter-start="translate-x-24" x-transition:enter-end="translate-x-0" x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-24" x-transition:enter="transition ease-out duration-300" x-transition:leave="transition ease-in duration-300">
           <div class="pt-12">
             <button class="ml-auto block text-white hover:text-sky-200" @click="menu = false">
@@ -52,6 +53,19 @@
                 <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
               </svg>
             </button>
+          </div>
+          <div class="lg:hidden">
+            <ul class="flex gap-4 pt-6 pb-12">
+              <li>
+                <a href="/es" class="block text-center pt-3 size-14 rounded-full border border-white {% if locale == 'es' %}bg-white text-sky-500{% endif %}">es</a>
+              </li>
+              <li>
+                <a href="/en" class="block text-center pt-3 size-14 rounded-full border border-white {% if locale == 'en' %}bg-white text-sky-500{% endif %}">en</a>
+              </li>
+              <li>
+                <a href="/gl" class="block text-center pt-3 size-14 rounded-full border border-white {% if locale == 'gl' %}bg-white text-sky-500{% endif %}">gl</a>
+              </li>
+            </ul>
           </div>
           <div>
             <ul class="space-y-6 menu">
@@ -62,7 +76,7 @@
                 {% set atributo = collections["atributo_" + locale] %}
                 {%- for item in atributo -%}
                   <li class="max-w-[260px]">
-                    <a href="{{ item.url }}">
+                    <a href="{{ item.url }}" {% if item.url == page.url %} class="text-sky-300" {% endif %}>
                       {{ item.data.title }}
                     </a>
                   </li>
