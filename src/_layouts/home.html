@@ -22,7 +22,10 @@
     <!-- Video -->
     <div class="caixa py-20">
         <div class="relative w-full bg-sky-900 rounded-xl shadow-lg shadow-sky-800/20 overflow-y-hidden">
-            <img eleventy:widths="500,1100,auto" loading="lazy" src="/assets/img/home/video.webp" alt="Vídeo oficial Ribeira Sacra" class="block"/>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe src="https://player.vimeo.com/video/{{ video_url }}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Video corto Candidatura RS2024-Castellano"></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
     </div>
     {% include 'localizacion.html' %}

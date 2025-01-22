@@ -7,9 +7,11 @@ subtitulo: 'Candidacy of Ribeira Sacra Waterscape to the World Heritage List'
 tit: 'Ribeira Sacra'
 ulo: 'Waterscape'
 descripcion: Ribeira Sacra is the living story of the relationship between water and mankind, whose ingenuity has sculpted a waterscape over <b class="text-sky-500">more than 1,500 years of continuous occupation</b>
+video_url: '1049214544'
 localizacion: Location
 loca: 'Provinces of Lugo Lugo and Ourense.<br />Galicia, Spain'
 mapa: Map
+mapa_url: plano_en.webp
 delimitacion: 'Property’s boundary'
 delimitacion_dato: '16.471 ha'
 delimitacion_cuerpo: 'The river canyons of these rivers between Santa María de Pesqueiras, to the

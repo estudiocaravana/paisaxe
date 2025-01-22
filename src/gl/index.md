@@ -7,9 +7,11 @@ subtitulo: 'Candidatura á Listaxe do Patrimonio Mundial'
 tit: 'Ribeira Sacra'
 ulo: 'Paisaxe da Agua'
 descripcion: Ribeira Sacra é a historia viva da relación entre a auga e o ser humano que gracias ao seu enxeño esculpiu unha paisaxe de auga ó longo de máis de <b class="text-sky-500">1.500 anos de ocupación continuada.</b>
+video_url: '1049214719'
 localizacion: Localización
 loca: 'Provincias de Lugo e Ourense.<br />Galicia, España'
 mapa: Mapa
+mapa_url: plano.webp
 delimitacion: 'Ben proposto'
 delimitacion_dato: '16.471 ha'
 delimitacion_cuerpo: 'Acolle en consecuencia os canóns fluviais destes ríos entre Santa María de Pesqueiras, ao oeste, e San Clodio de Ribas de Sil, ao leste.'
