@@ -9,11 +9,19 @@
         <script src="/assets/alpine.js" defer></script>
         <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg"/>
         <meta name="generator" content="11ty"/>
-        <title>{{ title }}</title>
-        <meta name="description" content="{{ descripcion }}"/>
         <script defer data-domain="ribeirasacrapaisaxedaauga.gal" src="https://plausible.io/js/script.js"></script>
+        <!-- META -->
+        <title>{{ title }}</title>
+        <meta
+        name="description" content="{{ descripcion }}"/>
+        <!-- Open Graph data -->
+        <meta property='og:title' content="{{ title }}"/>
+        <meta property='og:type' content='article'/>
+        <meta property='og:url' content=" {{ page.url }} "/>
+        <meta property='og:image' content='/assets/img/ogg.webp'/>
+        <meta property='og:description' content="{{ descripcion }}"/>
     </head>
-    <body class="text-sky-900 bg-sky-50 bg-fixed" style="background-image: url(/assets/img/fondo.webp)">
+    <body class=" text-sky-900 bg-sky-50 bg-fixed" style=" background-image: url(/assets/img/fondo.webp)">
         {% include 'nav.html' %}
         {% block content %}{% endblock %}
         {% include 'footer.html' %}
