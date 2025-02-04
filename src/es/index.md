@@ -38,7 +38,8 @@ formulario:
     imagen: /portada.webp
     tit: Formulario de inscripción 
     cuerpo: Este documento presenta la candidatura de la Ribeira Sacra Paisaje del agua a la Lista de Patrimonio Mundial. 
-    link: link
+    link: /pdf/RibeiraSacra_Waterscape_Dossier.pdf
+    link_2: /pdf/Managemet_Plan_Ribeira_Sacra.pdf
 bien:
     imagen: /decreto.webp
     tit: Bien de Interés Cultural (BIC)

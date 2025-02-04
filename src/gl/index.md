@@ -63,7 +63,8 @@ formulario:
     imagen: /portada.webp
     tit: Formulario de inscrición
     cuerpo: Este documento presenta a candidatura da Ribeira Sacra Paisaxe da Auga á Listaxe do Patrimonio Mundial. 
-    link: link
+    link: /pdf/RibeiraSacra_Waterscape_Dossier.pdf
+    link_2: /pdf/Managemet_Plan_Ribeira_Sacra.pdf
 bien:
     imagen: /decreto.webp
     tit: Ben de Interese Cultural (BIC)

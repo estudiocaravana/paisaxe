@@ -47,7 +47,8 @@ formulario:
     imagen: /portada.webp
     tit: Inscription form 
     cuerpo: This document presents the candidacy of the Ribeira Sacra Waterscape to the World Heritage List
-    link: link
+    link: /pdf/RibeiraSacra_Waterscape_Dossier.pdf
+    link_2: /pdf/Managemet_Plan_Ribeira_Sacra.pdf
 bien:
     imagen: /decreto.webp
     tit: Heritage of Cultural Interest (BIC)
