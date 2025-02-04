@@ -1,14 +1,18 @@
 <div class="caixa pt-80 pb-20">
-    <h2 class="text-3xl text-center">{{ atributos }}</h2>
-    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-20">
-        {% set atributo = collections["atributo_" + locale] %}
-        {%- for atributo in atributo -%}
-            <div class="border border-sky-300 overflow-hidden rounded-2xl">
-                <a href="{{ atributo.url }}" class="block lg:min-h-96 py-12 px-9 relative hover:bg-sky-100">
-                    <h3 class="text-2xl text-sky-500 max-w-xs mb-3">{{ atributo.data.title }}</h3>
-                    {{ atributo.data.descripcion | safe }}
-                </a>
-            </div>
-        {%- endfor -%}
+  <h2 class="text-3xl text-center">{{ atributos }}</h2>
+  <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mt-20">
+    {% set atributo = collections["atributo_" + locale] %} {%- for atributo in atributo -%}
+    <div class="border border-sky-300 overflow-hidden rounded-2xl">
+      <a href="{{ atributo.url }}" class="block relative hover:bg-sky-100">
+        <div class="bg-sky-500 aspect-video w-full">
+          <img src="/assets/img/thumb/{{ atributo.data.order }}.webp" alt="" />
+        </div>
+        <div class="px-9 py-12 lg:min-h-96">
+          <h3 class="text-2xl text-sky-500 max-w-xs mb-3">{{ atributo.data.title }}</h3>
+          {{ atributo.data.descripcion | safe }}
+        </div>
+      </a>
     </div>
+    {%- endfor -%}
+  </div>
 </div>
