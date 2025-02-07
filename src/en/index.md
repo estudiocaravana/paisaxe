@@ -65,6 +65,8 @@ water:
 fontes: "<p><b>FONTES</b>, the title of the international meeting held between 27 and 29 October 2024, refers to the more than 900 water springs that flow throughout the Ribeira Sacra territory and that contribute to shaping this extraordinary landscape, and also to the sources of knowledge, an essential factor when dealing with a heritage property.</p>"
 fontes_link: "https://fontesribeirasacra.com/?lang=en"
 atributos: Attributes
+anderson: 'Finca Cortezada, photographed by Ruth Matilda Anderson in 1925.<br>Image provided by The Hispanic Society of
+America.'
 ---
 
 **The following conclusions were reached:**

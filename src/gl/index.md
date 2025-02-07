@@ -85,6 +85,7 @@ territorio da Ribeira Sacra e que contribúen a modelar esta extraordinaria pais
 fontes do coñecemento, un factor imprescindible á hora de tratar cun ben patrimonial.</p>"
 fontes_link: "https://fontesribeirasacra.com/?lang=gl"
 atributos: Atributos
+anderson: 'Finca Cortezada, fotografada por Ruth Matilda Anderson en 1925.<br>Imaxe cedida por The Hispanic Society of America.'
 ---
 
 **Acadáronse as seguintes conclusións:**

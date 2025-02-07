@@ -57,6 +57,8 @@ water:
 fontes: "<p><b>FONTES</b>, el título del encuentro internacional celebrado entre el 27 y 29 de octubre de 2024 en Ribeira Sacra, hace alusión a las más de 900 fuentes de agua que manan a lo largo de todo el territorio de Ribeira Sacra y que contribuyen a modelar este extraordinario paisaje, y también a las fuentes del conocimiento, un factor imprescindible a la hora de tratar con un bien patrimonial.</p>"
 fontes_link: "https://fontesribeirasacra.com/"
 atributos: Atributos
+anderson: 'Finca Cortezada, fotografiada por Ruth Matilda Anderson en 1925.<br>Imagen cedida por The Hispanic Society of
+America.'
 ---
 
 **Se alcanzaron las siguientes conclusiones:**
