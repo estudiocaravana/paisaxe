@@ -9,13 +9,15 @@ ulo: 'Paisaxe da Agua'
 descripcion: Ribeira Sacra é a historia viva da relación entre a auga e o ser humano que gracias ao seu enxeño esculpiu unha paisaxe de auga ó longo de máis de <b class="text-sky-500">1.500 anos de ocupación continuada.</b>
 video_url: '1049214719'
 localizacion: Localización
-loca: 'Provincias de Lugo e Ourense.<br />Galicia, España'
+loca: 'Provincias de Lugo e Ourense.<br>Galicia, España.<br> Coordenadas de Os Peares, punto de confluencia dos ríos Sil e Miño.<br>
+(WGS 84) N 42° 27’ 14’’ / W 7° 43’ 50’’<br>
+(ETRS 89) Zona UTM 29N: 604352 / 4700981'
 mapa: Mapa
 mapa_url: plano.webp
 pdf_url: Limites_bien.pdf
 delimitacion: 'Ben proposto'
 delimitacion_dato: '16.471 ha'
-delimitacion_cuerpo: 'Acolle en consecuencia os canóns fluviais destes ríos entre Santa María de Pesqueiras, ao oeste, e San Clodio de Ribas de Sil, ao leste.'
+delimitacion_cuerpo: 'Acolle os canóns fluviais dos ríos Miño e Sil entre Santa María de Pesqueiras, ao oeste, e San Clodio de Ribas de Sil, ao leste.'
 amor: 'Zona de amortecemento'
 amor_dato: '31.979 ha'
 amor_cuerpo: 'Trazado das 72 parroquias que representan as unidades territoriais comunitarias configuradas desde o medievo.'
@@ -63,7 +65,7 @@ formulario:
     imagen: /portada.webp
     tit: Formulario de inscrición
     cuerpo: Este documento presenta a candidatura da Ribeira Sacra Paisaxe da Auga á Listaxe do Patrimonio Mundial. 
-    link: /pdf/RibeiraSacra_Waterscape_Dossier.pdf
+    link: /pdf/Ribeira_Sacra_Paisaje_del_Agua.pdf
     link_2: /pdf/Managemet_Plan_Ribeira_Sacra.pdf
 bien:
     imagen: /decreto.webp

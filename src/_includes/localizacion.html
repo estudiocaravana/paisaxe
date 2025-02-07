@@ -1,41 +1,38 @@
 <div class="caixa">
-    <div class="max-w-lg sm:pt-20 mx-auto text-center">
-        <h2>{{ localizacion }}</h2>
-        {{loca | safe}}
-    </div>
+  <div class="max-w-md sm:pt-20 text-center mx-auto">
+    <h2 class="mb-3">{{ localizacion }}</h2>
+    {{loca | safe}}
+  </div>
 </div>
 <!-- mapas -->
-<div class="caixa pt-6">
-    <div class="py-9 grid grid-cols-2 md:grid-cols-4 *:bg-white *:border *:border-sky-400 *:rounded-xl *:overflow-hidden *:p-3 gap-6 rounded-xl overflow-hidden">
-        <div><img src="/assets/img/home/localizacion/world.webp" class="rounded-lg" alt=""/></div>
-        <div><img src="/assets/img/home/localizacion/europe.webp" class="rounded-lg" alt=""/></div>
-        <div><img src="/assets/img/home/localizacion/spain.webp" class="rounded-lg" alt=""/></div>
-        <div><img src="/assets/img/home/localizacion/galician.webp" class="rounded-lg" alt=""/></div>
-    </div>
+<div class="caixa pt-12">
+  <div class="py-9 grid grid-cols-2 md:grid-cols-4 *:bg-white *:border *:border-sky-400 *:rounded-xl *:overflow-hidden *:p-3 gap-6 rounded-xl overflow-hidden">
+    <div><img src="/assets/img/home/localizacion/world.webp" class="rounded-lg" alt="" /></div>
+    <div><img src="/assets/img/home/localizacion/europe.webp" class="rounded-lg" alt="" /></div>
+    <div><img src="/assets/img/home/localizacion/spain.webp" class="rounded-lg" alt="" /></div>
+    <div><img src="/assets/img/home/localizacion/galician.webp" class="rounded-lg" alt="" /></div>
+  </div>
 </div>
 <!-- limite -->
 <div class="caixa pt-20">
-    <div class="text-center">
-        <h3 class="text-3xl">{{ limite }}</h3>
-        <div class="mt-5 mx-auto max-w-2xl">
-            {{ limite_cuerpo | safe }}
-        </div>
-    </div>
+  <div class="text-center">
+    <h3 class="text-3xl">{{ limite }}</h3>
+    <div class="mt-5 mx-auto max-w-2xl">{{ limite_cuerpo | safe }}</div>
+  </div>
 </div>
 <!-- Mapa -->
 <div class="caixa">
-    <div class="pt-20 relative">
-        <img eleventy:widths="auto,400,800" loading="lazy" class="w-full rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/{{ mapa_url }}" alt=""/>
+  <div class="pt-20 relative">
+    <img eleventy:widths="auto,400,800" loading="lazy" class="w-full rounded-xl shadow-lg shadow-sky-800/20" src="/assets/img/home/{{ mapa_url }}" alt="" />
+  </div>
+  <a href="/pdf/{{ pdf_url }}" target="_blank" class="mx-auto mt-12 bg-sky-500 text-sky-50 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full">
+    <div>
+      <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6" />
+        <path d="m21 3-9 9" />
+        <path d="M15 3h6v6" />
+      </svg>
     </div>
-    <a href="/pdf/{{ pdf_url }}" target="_blank" class="mx-auto mt-12 bg-sky-500 text-sky-50 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full">
-        <div>
-            <svg class="fill-none stroke-current stroke-2 size-6" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
-                <path d="m21 3-9 9"/>
-                <path d="M15 3h6v6"/>
-            </svg>
-        </div>
-        <div>PDF
-            {{ mapa }}</div>
-    </a>
+    <div>PDF {{ mapa }}</div>
+  </a>
 </div>

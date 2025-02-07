@@ -2,26 +2,27 @@
 order: 1
 layout: home
 title: Ribeira Sacra  Waterscape
-metadescripcion: Candidacy of Ribeira Sacra Waterscape to the World Heritage List
-subtitulo: 'Candidacy of Ribeira Sacra Waterscape to the World Heritage List'
+metadescripcion: Nomination to the World Heritage List
+subtitulo: 'Nomination to the World Heritage List'
 tit: 'Ribeira Sacra'
 ulo: 'Waterscape'
 descripcion: Ribeira Sacra is the living story of the relationship between water and mankind, whose ingenuity has sculpted a waterscape over <b class="text-sky-500">more than 1,500 years of continuous occupation</b>
 video_url: '1049214544'
 localizacion: Location
-loca: 'Provinces of Lugo Lugo and Ourense.<br />Galicia, Spain'
+loca: 'Provinces of Lugo Lugo and Ourense.<br />Galicia, Spain.<br>Coordinates of Os Peares,<br> where the rivers Sil and Miño meet.<br>
+(WGS 84) N 42° 27’ 14’’ / W 7° 43’ 50’’<br>
+(ETRS 89) Zone UTM 29N: 604352 / 4700981'
 mapa: Map
 mapa_url: plano_en.webp
 pdf_url: Property_boundaries.pdf
 delimitacion: 'Property’s boundary'
 delimitacion_dato: '16,471 ha'
-delimitacion_cuerpo: 'The river canyons of these rivers between Santa María de Pesqueiras, to the
-west, and San Clodio de Ribas de Sil, to the east.'
+delimitacion_cuerpo: 'The river canyons of the rivers Sil and Miño between Santa María de Pesqueiras, to the west, and San Clodio de Ribas de Sil, to the east.'
 amor: 'Buffer zone'
 amor_dato: '31,979 ha'
 amor_cuerpo: 'The layout of the 72 parishes configured since the Middle Ages and that still survive as identity references in the area.'
 limite: 'The property’s boundary'
-limite_cuerpo: '<p>Runs along the upper edges of the valleys of the rivers Sil and Miño in the sections close to the junction of the two rivers. Its boundary is defined on the ground in what is locally known as <b>bocarribeira</b>, which is the place where the slope changes abruptly, going from values above 30% (ribeiras) to values below 10% (chairas)'
+limite_cuerpo: '<p>Runs along the upper edges of the valleys of the rivers Sil and Miño in the sections close to the junction of the two rivers. Its boundary is defined on the ground in what is locally known as <b>bocarribeira</b>, which is the place where the slope changes abruptly, going from values above 30% <i>(ribeiras)</i> to values below 10% <i>(chairas)</i>'
 crit: Criteria
 criterio: 'According to UNESCO criteria, it is presented under criterion (v)'
 criterio_cuerpo: '<p>To be an outstanding example of a traditional human settlement, land-use, or sea-use which is representative of a culture (or cultures), or human interaction with the environment especially when it has become vulnerable under the impact of irreversible change.</p>'
@@ -29,13 +30,13 @@ valor: 'Outstanding Universal Value (OUV)'
 valor_entrada: '<p>The nominated property shows an exceptional cultural waterscape embedded between the spectacular river canyons located at the confluence of the rivers Sil and Miño (Galicia, Spain), on the Atlantic coast of rainy Iberia, popularly known as Ribeira Sacra.</p>'
 valor_cuerpo: '<p>It is an epic landscape brought about by the culture and heritage of water, sustained by its countless streams, brooks and rivers that define its unique identity, beauty, composition and settlement patterns. It illustrates the origin and evolution of a territory sculpted by water and a paradigm of a water culture, in which the traces that have marked its construction over more than 1,500 years of continuous occupation can be vividly recognised, and that has its origins in the ancient hermit and monastic tradition rooted in this area.</p>
 
-<p>The culture of water in these places is reflected in an exceptional water heritage that includes archaeological sites, the water-associated devices of all periods, including an important hydraulic industrial heritage, the unique drainage systems of the socalcos or crop terraces, as well as multiple other vernacular manifestations in the form of sacralised fountains and mines, canals, dams, passes and bridges, river routes and other unique works associated with water.</p>
+<p>The culture of water in these places is reflected in an exceptional water heritage that includes archaeological sites, the water-associated devices of all periods, including an important hydraulic industrial heritage, the unique drainage systems of the <i>socalcos</i> or crop terraces, as well as multiple other vernacular manifestations in the form of sacralised fountains and mines, canals, dams, passes and bridges, river routes and other unique works associated with water.</p>
 
 <p>The power of water is a fundamental part of the cultural landscape narrative. The area of the
 nominated property contains an exceptional catalogue of heritage elements of hydraulic use
 that continuously bear witness to the energy self-sufficiency of each period, including
 traditional water mills from different centuries, whose works survive in exceptional number
-and density around the area of the property, followed by the mini-power stations or fábricas
+and density around the area of the property, followed by the mini-power stations or <i>fábricas</i>
 de luz (factories producing electricity) that emerged at the end of the 19th century, until the
 hydroelectric reservoirs of the mid-20th century arrived.</p>
 
@@ -57,7 +58,7 @@ bien:
 water:
     imagen: /declaracion_en.webp
     tit: Waterscapes
-    cuerpo: The international meeting of experts held on 6-8 November 2023 in Ribeira Sacra concluded with the declaration on Cultural Waterscapes,
+    cuerpo: The international meeting of experts held on 6-8 November 2023 in Ribeira Sacra concluded with the declaration on Cultural Waterscapes
     link: https://waterscapesribeirasacra.com/?lang=en
     link_2: /pdf/Declaration_WateRScapes_en.pdf
 

@@ -9,7 +9,9 @@ ulo: 'Paisaje del Agua'
 descripcion: Ribeira Sacra es la historia viva de la relación entre el agua y el ser humano que gracias a su ingenio ha esculpido un paisaje de agua lo largo de más de <b class="text-sky-500">1.500 años de ocupación continuada.</b>
 video_url: '1049214544'
 localizacion: Localización
-loca: 'Provincias de Lugo y Ourense.<br />Galicia, España'
+loca: 'Provincias de Lugo y Ourense. Galicia, España.<br>Coordenadas de Os Peares, punto de confluencia de los ríos Sil y Miño.<br>
+(WGS 84) N 42° 27’ 14’’ / W 7° 43’ 50’’<br>
+(ETRS 89) Zona UTM 29N: 604352 / 4700981'
 mapa: Mapa
 mapa_url: plano.webp
 pdf_url: Limites_bien.pdf
@@ -38,7 +40,7 @@ formulario:
     imagen: /portada.webp
     tit: Formulario de inscripción 
     cuerpo: Este documento presenta la candidatura de la Ribeira Sacra Paisaje del agua a la Lista de Patrimonio Mundial. 
-    link: /pdf/RibeiraSacra_Waterscape_Dossier.pdf
+    link: /pdf/Ribeira_Sacra_Paisaje_del_Agua.pdf
     link_2: /pdf/Managemet_Plan_Ribeira_Sacra.pdf
 bien:
     imagen: /decreto.webp

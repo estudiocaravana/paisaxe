@@ -14,7 +14,7 @@
     <div>
       <img eleventy:widths="auto,400,800" loading="lazy" src="/assets/img/atributos/{{ item.img }}" alt="{{ item.alt }}" class="rounded-xl mx-auto" />
       <figcaption class="text-center pt-6">
-        {{ item.alt }}<br />
+        {{ item.alt | safe }}<br />
         {% if item.autor %} <small>&copy; {{ item.autor }}</small> {% else %} <small>&copy; R. Vilanova</small> {% endif %}
       </figcaption>
     </div>
