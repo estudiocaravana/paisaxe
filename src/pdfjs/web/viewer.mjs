@@ -13966,6 +13966,8 @@ const PDFViewerApplication = {
           const modes = apiPageLayoutToViewerModes(pageLayout);
           spreadMode = modes.spreadMode;
         }
+        // Por defecto, indicamos que las páginas se vean en una sola columna
+        spreadMode = SpreadMode.NONE;
         this.setInitialView(hash, {
           rotation,
           sidebarView,
