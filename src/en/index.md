@@ -8,6 +8,7 @@ tit: 'Ribeira Sacra'
 ulo: 'Waterscape'
 descripcion: Ribeira Sacra is the living story of the relationship between water and mankind, whose ingenuity has sculpted a waterscape over <b class="text-sky-500">more than 1,500 years of continuous occupation</b>
 video_url: '1081408312'
+docu: 'Watch documentary'
 localizacion: Location
 loca: 'Provinces of Lugo Lugo and Ourense.<br />Galicia, Spain.<br>Coordinates of Os Peares,<br> where the rivers Sil and Miño meet.<br>
 (WGS 84) N 42° 27’ 14’’ / W 7° 43’ 50’’<br>

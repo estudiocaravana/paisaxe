@@ -8,6 +8,7 @@ tit: 'Ribeira Sacra'
 ulo: 'Paisaxe da Agua'
 descripcion: Ribeira Sacra é a historia viva da relación entre a auga e o ser humano que gracias ao seu enxeño esculpiu unha paisaxe de auga ó longo de máis de <b class="text-sky-500">1.500 anos de ocupación continuada.</b>
 video_url: '1049214719'
+docu: 'Ver documental'
 localizacion: Localización
 loca: 'Provincias de Lugo e Ourense.<br>Galicia, España.<br> Coordenadas de Os Peares, punto de confluencia dos ríos Sil e Miño.<br>
 (WGS 84) N 42° 27’ 14’’ / W 7° 43’ 50’’<br>

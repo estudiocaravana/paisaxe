@@ -1,0 +1,28 @@
+{% extends "./base.html" %} {% block content %}
+<div class="caixa pt-12 pb-6">
+  <!-- Titular -->
+  <div class="max-w-2xl mx-auto text-center">
+    <div>
+      <h1 class="text-3xl sm:text-3xl mb-3 font-extrabold text-sky-500">
+        {{ title }}
+      </h1>
+    </div>
+  </div>
+</div>
+<!-- Video -->
+<div class="caixa py-20">
+  <div class="relative w-full bg-sky-900 rounded-xl shadow-lg shadow-sky-800/20 overflow-y-hidden">
+    <div style="padding: 56.25% 0 0 0; position: relative">
+      <iframe
+        src="https://player.vimeo.com/video/{{ video_url }}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+        title="Video corto Candidatura RS2024-Castellano"
+      ></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+  </div>
+</div>
+
+{% endblock %}

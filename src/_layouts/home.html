@@ -27,6 +27,18 @@
     <script src="https://player.vimeo.com/api/player.js"></script>
   </div>
 </div>
+<!-- Ligazón a documental -->
+<div class="caixa">
+  <a href="/{{ locale }}/documental" class="mx-auto bg-sky-500 hover:bg-sky-400 text-sky-50 px-12 h-16 flex gap-3 items-center justify-center w-fit rounded-full">
+    <div>{{ docu }}</div>
+    <div>
+      <svg class="fill-none stroke-current stroke-2 size-6" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 8L22 12L18 16"/>
+        <path d="M2 12H22"/>
+      </svg>
+    </div>
+  </a>
+</div>
 {% include 'localizacion.html' %} {% include 'delimitacion.html' %}
 <!-- Criterio -->
 <div class="caixa py-36 text-center">
